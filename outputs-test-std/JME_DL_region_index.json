@@ -1,0 +1,2342 @@
+{
+  "region-0000": {
+    "self_ref": "#/texts/0",
+    "page_no": 1,
+    "label": "page_header"
+  },
+  "region-0001": {
+    "self_ref": "#/pictures/0",
+    "page_no": 1,
+    "label": "picture"
+  },
+  "region-0002": {
+    "self_ref": "#/groups/0",
+    "page_no": 1,
+    "label": "key_value_area"
+  },
+  "region-0003": {
+    "self_ref": "#/texts/2",
+    "page_no": 1,
+    "label": "section_header"
+  },
+  "region-0004": {
+    "self_ref": "#/texts/3",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0005": {
+    "self_ref": "#/texts/4",
+    "page_no": 1,
+    "label": "section_header"
+  },
+  "region-0006": {
+    "self_ref": "#/texts/5",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0007": {
+    "self_ref": "#/groups/1",
+    "page_no": 1,
+    "label": "list"
+  },
+  "region-0008": {
+    "self_ref": "#/texts/7",
+    "page_no": 1,
+    "label": "footnote"
+  },
+  "region-0009": {
+    "self_ref": "#/texts/8",
+    "page_no": 1,
+    "label": "footnote"
+  },
+  "region-0010": {
+    "self_ref": "#/texts/9",
+    "page_no": 1,
+    "label": "section_header"
+  },
+  "region-0011": {
+    "self_ref": "#/groups/2",
+    "page_no": 1,
+    "label": "key_value_area"
+  },
+  "region-0012": {
+    "self_ref": "#/groups/3",
+    "page_no": 1,
+    "label": "key_value_area"
+  },
+  "region-0013": {
+    "self_ref": "#/texts/19",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0014": {
+    "self_ref": "#/texts/20",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0015": {
+    "self_ref": "#/texts/21",
+    "page_no": 1,
+    "label": "section_header"
+  },
+  "region-0016": {
+    "self_ref": "#/texts/22",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0017": {
+    "self_ref": "#/texts/23",
+    "page_no": 1,
+    "label": "footnote"
+  },
+  "region-0018": {
+    "self_ref": "#/texts/24",
+    "page_no": 1,
+    "label": "footnote"
+  },
+  "region-0019": {
+    "self_ref": "#/texts/25",
+    "page_no": 1,
+    "label": "section_header"
+  },
+  "region-0020": {
+    "self_ref": "#/texts/26",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0021": {
+    "self_ref": "#/texts/27",
+    "page_no": 1,
+    "label": "text"
+  },
+  "region-0022": {
+    "self_ref": "#/pictures/1",
+    "page_no": 1,
+    "label": "picture"
+  },
+  "region-0023": {
+    "self_ref": "#/pictures/2",
+    "page_no": 1,
+    "label": "picture"
+  },
+  "region-0024": {
+    "self_ref": "#/texts/28",
+    "page_no": 1,
+    "label": "page_footer"
+  },
+  "region-0025": {
+    "self_ref": "#/texts/29",
+    "page_no": 1,
+    "label": "page_footer"
+  },
+  "region-0026": {
+    "self_ref": "#/texts/30",
+    "page_no": 2,
+    "label": "page_header"
+  },
+  "region-0027": {
+    "self_ref": "#/texts/31",
+    "page_no": 2,
+    "label": "page_header"
+  },
+  "region-0028": {
+    "self_ref": "#/texts/32",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0029": {
+    "self_ref": "#/texts/33",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0030": {
+    "self_ref": "#/texts/34",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0031": {
+    "self_ref": "#/texts/35",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0032": {
+    "self_ref": "#/texts/36",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0033": {
+    "self_ref": "#/texts/37",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0034": {
+    "self_ref": "#/texts/38",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0035": {
+    "self_ref": "#/texts/39",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0036": {
+    "self_ref": "#/texts/40",
+    "page_no": 2,
+    "label": "text"
+  },
+  "region-0037": {
+    "self_ref": "#/texts/41",
+    "page_no": 2,
+    "label": "footnote"
+  },
+  "region-0038": {
+    "self_ref": "#/texts/42",
+    "page_no": 2,
+    "label": "page_footer"
+  },
+  "region-0039": {
+    "self_ref": "#/texts/43",
+    "page_no": 3,
+    "label": "page_header"
+  },
+  "region-0040": {
+    "self_ref": "#/texts/44",
+    "page_no": 3,
+    "label": "page_header"
+  },
+  "region-0041": {
+    "self_ref": "#/texts/45",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0042": {
+    "self_ref": "#/texts/46",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0043": {
+    "self_ref": "#/texts/47",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0044": {
+    "self_ref": "#/texts/48",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0045": {
+    "self_ref": "#/texts/49",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0046": {
+    "self_ref": "#/texts/50",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0047": {
+    "self_ref": "#/texts/51",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0048": {
+    "self_ref": "#/texts/52",
+    "page_no": 3,
+    "label": "section_header"
+  },
+  "region-0049": {
+    "self_ref": "#/texts/53",
+    "page_no": 3,
+    "label": "text"
+  },
+  "region-0050": {
+    "self_ref": "#/texts/54",
+    "page_no": 3,
+    "label": "page_footer"
+  },
+  "region-0051": {
+    "self_ref": "#/texts/55",
+    "page_no": 4,
+    "label": "page_header"
+  },
+  "region-0052": {
+    "self_ref": "#/texts/56",
+    "page_no": 4,
+    "label": "page_header"
+  },
+  "region-0053": {
+    "self_ref": "#/texts/57",
+    "page_no": 4,
+    "label": "section_header"
+  },
+  "region-0054": {
+    "self_ref": "#/texts/58",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0055": {
+    "self_ref": "#/texts/59",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0056": {
+    "self_ref": "#/texts/60",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0057": {
+    "self_ref": "#/texts/61",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0058": {
+    "self_ref": "#/texts/62",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0059": {
+    "self_ref": "#/texts/63",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0060": {
+    "self_ref": "#/texts/64",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0061": {
+    "self_ref": "#/texts/65",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0062": {
+    "self_ref": "#/texts/66",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0063": {
+    "self_ref": "#/texts/67",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0064": {
+    "self_ref": "#/texts/68",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0065": {
+    "self_ref": "#/texts/69",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0066": {
+    "self_ref": "#/texts/70",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0067": {
+    "self_ref": "#/texts/71",
+    "page_no": 4,
+    "label": "section_header"
+  },
+  "region-0068": {
+    "self_ref": "#/texts/72",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0069": {
+    "self_ref": "#/texts/73",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0070": {
+    "self_ref": "#/texts/74",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0071": {
+    "self_ref": "#/texts/75",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0072": {
+    "self_ref": "#/texts/76",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0073": {
+    "self_ref": "#/texts/77",
+    "page_no": 4,
+    "label": "formula"
+  },
+  "region-0074": {
+    "self_ref": "#/texts/78",
+    "page_no": 4,
+    "label": "text"
+  },
+  "region-0075": {
+    "self_ref": "#/texts/79",
+    "page_no": 4,
+    "label": "footnote"
+  },
+  "region-0076": {
+    "self_ref": "#/texts/80",
+    "page_no": 4,
+    "label": "page_footer"
+  },
+  "region-0077": {
+    "self_ref": "#/texts/81",
+    "page_no": 5,
+    "label": "page_header"
+  },
+  "region-0078": {
+    "self_ref": "#/texts/82",
+    "page_no": 5,
+    "label": "page_header"
+  },
+  "region-0079": {
+    "self_ref": "#/texts/83",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0080": {
+    "self_ref": "#/texts/84",
+    "page_no": 5,
+    "label": "formula"
+  },
+  "region-0081": {
+    "self_ref": "#/texts/85",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0082": {
+    "self_ref": "#/texts/86",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0083": {
+    "self_ref": "#/texts/87",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0084": {
+    "self_ref": "#/texts/88",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0085": {
+    "self_ref": "#/texts/89",
+    "page_no": 5,
+    "label": "formula"
+  },
+  "region-0086": {
+    "self_ref": "#/texts/90",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0087": {
+    "self_ref": "#/texts/91",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0088": {
+    "self_ref": "#/texts/92",
+    "page_no": 5,
+    "label": "section_header"
+  },
+  "region-0089": {
+    "self_ref": "#/texts/93",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0090": {
+    "self_ref": "#/texts/94",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0091": {
+    "self_ref": "#/texts/95",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0092": {
+    "self_ref": "#/texts/96",
+    "page_no": 5,
+    "label": "formula"
+  },
+  "region-0093": {
+    "self_ref": "#/texts/97",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0094": {
+    "self_ref": "#/texts/98",
+    "page_no": 5,
+    "label": "text"
+  },
+  "region-0095": {
+    "self_ref": "#/texts/99",
+    "page_no": 5,
+    "label": "formula"
+  },
+  "region-0096": {
+    "self_ref": "#/texts/100",
+    "page_no": 5,
+    "label": "page_footer"
+  },
+  "region-0097": {
+    "self_ref": "#/texts/101",
+    "page_no": 6,
+    "label": "page_header"
+  },
+  "region-0098": {
+    "self_ref": "#/texts/102",
+    "page_no": 6,
+    "label": "page_header"
+  },
+  "region-0099": {
+    "self_ref": "#/texts/103",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0100": {
+    "self_ref": "#/texts/104",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0101": {
+    "self_ref": "#/texts/105",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0102": {
+    "self_ref": "#/texts/106",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0103": {
+    "self_ref": "#/texts/107",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0104": {
+    "self_ref": "#/texts/108",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0105": {
+    "self_ref": "#/texts/109",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0106": {
+    "self_ref": "#/texts/110",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0107": {
+    "self_ref": "#/texts/111",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0108": {
+    "self_ref": "#/texts/112",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0109": {
+    "self_ref": "#/texts/113",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0110": {
+    "self_ref": "#/texts/114",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0111": {
+    "self_ref": "#/texts/115",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0112": {
+    "self_ref": "#/texts/116",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0113": {
+    "self_ref": "#/texts/117",
+    "page_no": 6,
+    "label": "formula"
+  },
+  "region-0114": {
+    "self_ref": "#/texts/118",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0115": {
+    "self_ref": "#/texts/119",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0116": {
+    "self_ref": "#/texts/120",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0117": {
+    "self_ref": "#/texts/121",
+    "page_no": 6,
+    "label": "formula"
+  },
+  "region-0118": {
+    "self_ref": "#/texts/122",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0119": {
+    "self_ref": "#/texts/123",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0120": {
+    "self_ref": "#/texts/124",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0121": {
+    "self_ref": "#/texts/125",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0122": {
+    "self_ref": "#/texts/126",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0123": {
+    "self_ref": "#/texts/127",
+    "page_no": 6,
+    "label": "formula"
+  },
+  "region-0124": {
+    "self_ref": "#/texts/128",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0125": {
+    "self_ref": "#/texts/129",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0126": {
+    "self_ref": "#/texts/130",
+    "page_no": 6,
+    "label": "formula"
+  },
+  "region-0127": {
+    "self_ref": "#/texts/131",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0128": {
+    "self_ref": "#/texts/132",
+    "page_no": 6,
+    "label": "formula"
+  },
+  "region-0129": {
+    "self_ref": "#/texts/133",
+    "page_no": 6,
+    "label": "text"
+  },
+  "region-0130": {
+    "self_ref": "#/texts/134",
+    "page_no": 6,
+    "label": "page_footer"
+  },
+  "region-0131": {
+    "self_ref": "#/texts/135",
+    "page_no": 7,
+    "label": "page_header"
+  },
+  "region-0132": {
+    "self_ref": "#/texts/136",
+    "page_no": 7,
+    "label": "page_header"
+  },
+  "region-0133": {
+    "self_ref": "#/texts/137",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0134": {
+    "self_ref": "#/texts/138",
+    "page_no": 7,
+    "label": "formula"
+  },
+  "region-0135": {
+    "self_ref": "#/texts/139",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0136": {
+    "self_ref": "#/texts/140",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0137": {
+    "self_ref": "#/texts/141",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0138": {
+    "self_ref": "#/texts/142",
+    "page_no": 7,
+    "label": "formula"
+  },
+  "region-0139": {
+    "self_ref": "#/texts/143",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0140": {
+    "self_ref": "#/texts/144",
+    "page_no": 7,
+    "label": "section_header"
+  },
+  "region-0141": {
+    "self_ref": "#/texts/145",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0142": {
+    "self_ref": "#/texts/146",
+    "page_no": 7,
+    "label": "formula"
+  },
+  "region-0143": {
+    "self_ref": "#/texts/147",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0144": {
+    "self_ref": "#/texts/148",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0145": {
+    "self_ref": "#/texts/149",
+    "page_no": 7,
+    "label": "formula"
+  },
+  "region-0146": {
+    "self_ref": "#/texts/150",
+    "page_no": 7,
+    "label": "text"
+  },
+  "region-0147": {
+    "self_ref": "#/texts/151",
+    "page_no": 7,
+    "label": "footnote"
+  },
+  "region-0148": {
+    "self_ref": "#/texts/152",
+    "page_no": 7,
+    "label": "footnote"
+  },
+  "region-0149": {
+    "self_ref": "#/texts/153",
+    "page_no": 7,
+    "label": "page_footer"
+  },
+  "region-0150": {
+    "self_ref": "#/texts/154",
+    "page_no": 8,
+    "label": "page_header"
+  },
+  "region-0151": {
+    "self_ref": "#/texts/155",
+    "page_no": 8,
+    "label": "page_header"
+  },
+  "region-0152": {
+    "self_ref": "#/texts/156",
+    "page_no": 8,
+    "label": "text"
+  },
+  "region-0153": {
+    "self_ref": "#/texts/157",
+    "page_no": 8,
+    "label": "text"
+  },
+  "region-0154": {
+    "self_ref": "#/texts/158",
+    "page_no": 8,
+    "label": "text"
+  },
+  "region-0155": {
+    "self_ref": "#/pictures/3",
+    "page_no": 8,
+    "label": "picture"
+  },
+  "region-0156": {
+    "self_ref": "#/texts/160",
+    "page_no": 8,
+    "label": "text"
+  },
+  "region-0157": {
+    "self_ref": "#/texts/161",
+    "page_no": 8,
+    "label": "footnote"
+  },
+  "region-0158": {
+    "self_ref": "#/texts/162",
+    "page_no": 8,
+    "label": "page_footer"
+  },
+  "region-0159": {
+    "self_ref": "#/texts/163",
+    "page_no": 9,
+    "label": "page_header"
+  },
+  "region-0160": {
+    "self_ref": "#/texts/164",
+    "page_no": 9,
+    "label": "page_header"
+  },
+  "region-0161": {
+    "self_ref": "#/texts/165",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0162": {
+    "self_ref": "#/pictures/4",
+    "page_no": 9,
+    "label": "picture"
+  },
+  "region-0163": {
+    "self_ref": "#/texts/167",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0164": {
+    "self_ref": "#/texts/168",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0165": {
+    "self_ref": "#/texts/169",
+    "page_no": 9,
+    "label": "formula"
+  },
+  "region-0166": {
+    "self_ref": "#/texts/170",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0167": {
+    "self_ref": "#/texts/171",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0168": {
+    "self_ref": "#/texts/172",
+    "page_no": 9,
+    "label": "formula"
+  },
+  "region-0169": {
+    "self_ref": "#/texts/173",
+    "page_no": 9,
+    "label": "text"
+  },
+  "region-0170": {
+    "self_ref": "#/texts/174",
+    "page_no": 9,
+    "label": "page_footer"
+  },
+  "region-0171": {
+    "self_ref": "#/texts/175",
+    "page_no": 10,
+    "label": "page_header"
+  },
+  "region-0172": {
+    "self_ref": "#/texts/176",
+    "page_no": 10,
+    "label": "page_header"
+  },
+  "region-0173": {
+    "self_ref": "#/texts/177",
+    "page_no": 10,
+    "label": "formula"
+  },
+  "region-0174": {
+    "self_ref": "#/texts/178",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0175": {
+    "self_ref": "#/texts/179",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0176": {
+    "self_ref": "#/texts/180",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0177": {
+    "self_ref": "#/texts/181",
+    "page_no": 10,
+    "label": "section_header"
+  },
+  "region-0178": {
+    "self_ref": "#/texts/182",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0179": {
+    "self_ref": "#/groups/4",
+    "page_no": 10,
+    "label": "list"
+  },
+  "region-0180": {
+    "self_ref": "#/texts/186",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0181": {
+    "self_ref": "#/groups/5",
+    "page_no": 10,
+    "label": "list"
+  },
+  "region-0182": {
+    "self_ref": "#/texts/189",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0183": {
+    "self_ref": "#/texts/190",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0184": {
+    "self_ref": "#/texts/191",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0185": {
+    "self_ref": "#/texts/192",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0186": {
+    "self_ref": "#/texts/193",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0187": {
+    "self_ref": "#/texts/194",
+    "page_no": 10,
+    "label": "text"
+  },
+  "region-0188": {
+    "self_ref": "#/texts/195",
+    "page_no": 10,
+    "label": "page_footer"
+  },
+  "region-0189": {
+    "self_ref": "#/texts/196",
+    "page_no": 11,
+    "label": "page_header"
+  },
+  "region-0190": {
+    "self_ref": "#/texts/197",
+    "page_no": 11,
+    "label": "page_header"
+  },
+  "region-0191": {
+    "self_ref": "#/texts/198",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0192": {
+    "self_ref": "#/texts/199",
+    "page_no": 11,
+    "label": "section_header"
+  },
+  "region-0193": {
+    "self_ref": "#/texts/200",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0194": {
+    "self_ref": "#/texts/201",
+    "page_no": 11,
+    "label": "section_header"
+  },
+  "region-0195": {
+    "self_ref": "#/texts/202",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0196": {
+    "self_ref": "#/texts/203",
+    "page_no": 11,
+    "label": "formula"
+  },
+  "region-0197": {
+    "self_ref": "#/texts/204",
+    "page_no": 11,
+    "label": "formula"
+  },
+  "region-0198": {
+    "self_ref": "#/texts/205",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0199": {
+    "self_ref": "#/texts/206",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0200": {
+    "self_ref": "#/texts/207",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0201": {
+    "self_ref": "#/texts/208",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0202": {
+    "self_ref": "#/texts/209",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0203": {
+    "self_ref": "#/texts/210",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0204": {
+    "self_ref": "#/texts/211",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0205": {
+    "self_ref": "#/texts/212",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0206": {
+    "self_ref": "#/texts/213",
+    "page_no": 11,
+    "label": "formula"
+  },
+  "region-0207": {
+    "self_ref": "#/texts/214",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0208": {
+    "self_ref": "#/texts/215",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0209": {
+    "self_ref": "#/texts/216",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0210": {
+    "self_ref": "#/texts/217",
+    "page_no": 11,
+    "label": "formula"
+  },
+  "region-0211": {
+    "self_ref": "#/texts/218",
+    "page_no": 11,
+    "label": "formula"
+  },
+  "region-0212": {
+    "self_ref": "#/texts/219",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0213": {
+    "self_ref": "#/texts/220",
+    "page_no": 11,
+    "label": "text"
+  },
+  "region-0214": {
+    "self_ref": "#/texts/221",
+    "page_no": 11,
+    "label": "page_footer"
+  },
+  "region-0215": {
+    "self_ref": "#/texts/222",
+    "page_no": 12,
+    "label": "page_header"
+  },
+  "region-0216": {
+    "self_ref": "#/texts/223",
+    "page_no": 12,
+    "label": "page_header"
+  },
+  "region-0217": {
+    "self_ref": "#/texts/224",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0218": {
+    "self_ref": "#/texts/225",
+    "page_no": 12,
+    "label": "formula"
+  },
+  "region-0219": {
+    "self_ref": "#/texts/226",
+    "page_no": 12,
+    "label": "formula"
+  },
+  "region-0220": {
+    "self_ref": "#/texts/227",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0221": {
+    "self_ref": "#/texts/228",
+    "page_no": 12,
+    "label": "section_header"
+  },
+  "region-0222": {
+    "self_ref": "#/texts/229",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0223": {
+    "self_ref": "#/texts/230",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0224": {
+    "self_ref": "#/texts/231",
+    "page_no": 12,
+    "label": "formula"
+  },
+  "region-0225": {
+    "self_ref": "#/texts/232",
+    "page_no": 12,
+    "label": "formula"
+  },
+  "region-0226": {
+    "self_ref": "#/texts/233",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0227": {
+    "self_ref": "#/texts/234",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0228": {
+    "self_ref": "#/texts/235",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0229": {
+    "self_ref": "#/texts/236",
+    "page_no": 12,
+    "label": "section_header"
+  },
+  "region-0230": {
+    "self_ref": "#/texts/237",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0231": {
+    "self_ref": "#/texts/238",
+    "page_no": 12,
+    "label": "formula"
+  },
+  "region-0232": {
+    "self_ref": "#/texts/239",
+    "page_no": 12,
+    "label": "text"
+  },
+  "region-0233": {
+    "self_ref": "#/texts/240",
+    "page_no": 12,
+    "label": "page_footer"
+  },
+  "region-0234": {
+    "self_ref": "#/texts/241",
+    "page_no": 13,
+    "label": "page_header"
+  },
+  "region-0235": {
+    "self_ref": "#/texts/242",
+    "page_no": 13,
+    "label": "page_header"
+  },
+  "region-0236": {
+    "self_ref": "#/texts/243",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0237": {
+    "self_ref": "#/pictures/5",
+    "page_no": 13,
+    "label": "picture"
+  },
+  "region-0238": {
+    "self_ref": "#/texts/245",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0239": {
+    "self_ref": "#/texts/246",
+    "page_no": 13,
+    "label": "section_header"
+  },
+  "region-0240": {
+    "self_ref": "#/texts/247",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0241": {
+    "self_ref": "#/texts/248",
+    "page_no": 13,
+    "label": "formula"
+  },
+  "region-0242": {
+    "self_ref": "#/texts/249",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0243": {
+    "self_ref": "#/texts/250",
+    "page_no": 13,
+    "label": "formula"
+  },
+  "region-0244": {
+    "self_ref": "#/texts/251",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0245": {
+    "self_ref": "#/texts/252",
+    "page_no": 13,
+    "label": "formula"
+  },
+  "region-0246": {
+    "self_ref": "#/texts/253",
+    "page_no": 13,
+    "label": "text"
+  },
+  "region-0247": {
+    "self_ref": "#/texts/254",
+    "page_no": 13,
+    "label": "page_footer"
+  },
+  "region-0248": {
+    "self_ref": "#/texts/255",
+    "page_no": 14,
+    "label": "page_header"
+  },
+  "region-0249": {
+    "self_ref": "#/texts/256",
+    "page_no": 14,
+    "label": "page_header"
+  },
+  "region-0250": {
+    "self_ref": "#/texts/257",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0251": {
+    "self_ref": "#/pictures/6",
+    "page_no": 14,
+    "label": "picture"
+  },
+  "region-0252": {
+    "self_ref": "#/texts/259",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0253": {
+    "self_ref": "#/texts/260",
+    "page_no": 14,
+    "label": "section_header"
+  },
+  "region-0254": {
+    "self_ref": "#/texts/261",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0255": {
+    "self_ref": "#/texts/262",
+    "page_no": 14,
+    "label": "formula"
+  },
+  "region-0256": {
+    "self_ref": "#/texts/263",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0257": {
+    "self_ref": "#/texts/264",
+    "page_no": 14,
+    "label": "formula"
+  },
+  "region-0258": {
+    "self_ref": "#/texts/265",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0259": {
+    "self_ref": "#/texts/266",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0260": {
+    "self_ref": "#/texts/267",
+    "page_no": 14,
+    "label": "text"
+  },
+  "region-0261": {
+    "self_ref": "#/texts/268",
+    "page_no": 14,
+    "label": "page_footer"
+  },
+  "region-0262": {
+    "self_ref": "#/texts/269",
+    "page_no": 15,
+    "label": "page_header"
+  },
+  "region-0263": {
+    "self_ref": "#/texts/270",
+    "page_no": 15,
+    "label": "page_header"
+  },
+  "region-0264": {
+    "self_ref": "#/pictures/7",
+    "page_no": 15,
+    "label": "picture"
+  },
+  "region-0265": {
+    "self_ref": "#/texts/272",
+    "page_no": 15,
+    "label": "text"
+  },
+  "region-0266": {
+    "self_ref": "#/texts/273",
+    "page_no": 15,
+    "label": "section_header"
+  },
+  "region-0267": {
+    "self_ref": "#/texts/274",
+    "page_no": 15,
+    "label": "text"
+  },
+  "region-0268": {
+    "self_ref": "#/pictures/8",
+    "page_no": 15,
+    "label": "picture"
+  },
+  "region-0269": {
+    "self_ref": "#/texts/276",
+    "page_no": 15,
+    "label": "text"
+  },
+  "region-0270": {
+    "self_ref": "#/texts/277",
+    "page_no": 15,
+    "label": "section_header"
+  },
+  "region-0271": {
+    "self_ref": "#/texts/278",
+    "page_no": 15,
+    "label": "text"
+  },
+  "region-0272": {
+    "self_ref": "#/texts/279",
+    "page_no": 15,
+    "label": "page_footer"
+  },
+  "region-0273": {
+    "self_ref": "#/texts/280",
+    "page_no": 16,
+    "label": "page_header"
+  },
+  "region-0274": {
+    "self_ref": "#/texts/281",
+    "page_no": 16,
+    "label": "page_header"
+  },
+  "region-0275": {
+    "self_ref": "#/pictures/9",
+    "page_no": 16,
+    "label": "picture"
+  },
+  "region-0276": {
+    "self_ref": "#/texts/283",
+    "page_no": 16,
+    "label": "text"
+  },
+  "region-0277": {
+    "self_ref": "#/texts/284",
+    "page_no": 16,
+    "label": "text"
+  },
+  "region-0278": {
+    "self_ref": "#/pictures/10",
+    "page_no": 16,
+    "label": "picture"
+  },
+  "region-0279": {
+    "self_ref": "#/texts/286",
+    "page_no": 16,
+    "label": "text"
+  },
+  "region-0280": {
+    "self_ref": "#/texts/287",
+    "page_no": 16,
+    "label": "section_header"
+  },
+  "region-0281": {
+    "self_ref": "#/texts/288",
+    "page_no": 16,
+    "label": "text"
+  },
+  "region-0282": {
+    "self_ref": "#/texts/289",
+    "page_no": 16,
+    "label": "formula"
+  },
+  "region-0283": {
+    "self_ref": "#/texts/290",
+    "page_no": 16,
+    "label": "page_footer"
+  },
+  "region-0284": {
+    "self_ref": "#/texts/291",
+    "page_no": 17,
+    "label": "page_header"
+  },
+  "region-0285": {
+    "self_ref": "#/texts/292",
+    "page_no": 17,
+    "label": "page_header"
+  },
+  "region-0286": {
+    "self_ref": "#/texts/293",
+    "page_no": 17,
+    "label": "formula"
+  },
+  "region-0287": {
+    "self_ref": "#/texts/294",
+    "page_no": 17,
+    "label": "formula"
+  },
+  "region-0288": {
+    "self_ref": "#/texts/295",
+    "page_no": 17,
+    "label": "formula"
+  },
+  "region-0289": {
+    "self_ref": "#/texts/296",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0290": {
+    "self_ref": "#/texts/297",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0291": {
+    "self_ref": "#/texts/298",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0292": {
+    "self_ref": "#/pictures/11",
+    "page_no": 17,
+    "label": "picture"
+  },
+  "region-0293": {
+    "self_ref": "#/texts/300",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0294": {
+    "self_ref": "#/texts/301",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0295": {
+    "self_ref": "#/texts/302",
+    "page_no": 17,
+    "label": "section_header"
+  },
+  "region-0296": {
+    "self_ref": "#/texts/303",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0297": {
+    "self_ref": "#/texts/304",
+    "page_no": 17,
+    "label": "section_header"
+  },
+  "region-0298": {
+    "self_ref": "#/texts/305",
+    "page_no": 17,
+    "label": "text"
+  },
+  "region-0299": {
+    "self_ref": "#/texts/306",
+    "page_no": 17,
+    "label": "formula"
+  },
+  "region-0300": {
+    "self_ref": "#/texts/307",
+    "page_no": 17,
+    "label": "page_footer"
+  },
+  "region-0301": {
+    "self_ref": "#/texts/308",
+    "page_no": 18,
+    "label": "page_header"
+  },
+  "region-0302": {
+    "self_ref": "#/texts/309",
+    "page_no": 18,
+    "label": "page_header"
+  },
+  "region-0303": {
+    "self_ref": "#/texts/310",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0304": {
+    "self_ref": "#/texts/311",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0305": {
+    "self_ref": "#/texts/312",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0306": {
+    "self_ref": "#/texts/313",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0307": {
+    "self_ref": "#/texts/314",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0308": {
+    "self_ref": "#/texts/315",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0309": {
+    "self_ref": "#/texts/316",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0310": {
+    "self_ref": "#/texts/317",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0311": {
+    "self_ref": "#/texts/318",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0312": {
+    "self_ref": "#/texts/319",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0313": {
+    "self_ref": "#/texts/320",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0314": {
+    "self_ref": "#/texts/321",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0315": {
+    "self_ref": "#/texts/322",
+    "page_no": 18,
+    "label": "formula"
+  },
+  "region-0316": {
+    "self_ref": "#/texts/323",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0317": {
+    "self_ref": "#/texts/324",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0318": {
+    "self_ref": "#/texts/325",
+    "page_no": 18,
+    "label": "text"
+  },
+  "region-0319": {
+    "self_ref": "#/groups/6",
+    "page_no": 18,
+    "label": "list"
+  },
+  "region-0320": {
+    "self_ref": "#/texts/327",
+    "page_no": 18,
+    "label": "footnote"
+  },
+  "region-0321": {
+    "self_ref": "#/texts/328",
+    "page_no": 18,
+    "label": "footnote"
+  },
+  "region-0322": {
+    "self_ref": "#/texts/329",
+    "page_no": 18,
+    "label": "page_footer"
+  },
+  "region-0323": {
+    "self_ref": "#/texts/330",
+    "page_no": 19,
+    "label": "page_header"
+  },
+  "region-0324": {
+    "self_ref": "#/texts/331",
+    "page_no": 19,
+    "label": "page_header"
+  },
+  "region-0325": {
+    "self_ref": "#/groups/7",
+    "page_no": 19,
+    "label": "list"
+  },
+  "region-0326": {
+    "self_ref": "#/texts/333",
+    "page_no": 19,
+    "label": "formula"
+  },
+  "region-0327": {
+    "self_ref": "#/groups/8",
+    "page_no": 19,
+    "label": "list"
+  },
+  "region-0328": {
+    "self_ref": "#/texts/335",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0329": {
+    "self_ref": "#/texts/336",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0330": {
+    "self_ref": "#/texts/337",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0331": {
+    "self_ref": "#/texts/338",
+    "page_no": 19,
+    "label": "section_header"
+  },
+  "region-0332": {
+    "self_ref": "#/texts/339",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0333": {
+    "self_ref": "#/texts/340",
+    "page_no": 19,
+    "label": "formula"
+  },
+  "region-0334": {
+    "self_ref": "#/texts/341",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0335": {
+    "self_ref": "#/texts/342",
+    "page_no": 19,
+    "label": "text"
+  },
+  "region-0336": {
+    "self_ref": "#/texts/343",
+    "page_no": 19,
+    "label": "caption"
+  },
+  "region-0337": {
+    "self_ref": "#/pictures/12",
+    "page_no": 19,
+    "label": "picture"
+  },
+  "region-0338": {
+    "self_ref": "#/texts/345",
+    "page_no": 19,
+    "label": "footnote"
+  },
+  "region-0339": {
+    "self_ref": "#/texts/346",
+    "page_no": 19,
+    "label": "page_footer"
+  },
+  "region-0340": {
+    "self_ref": "#/texts/347",
+    "page_no": 20,
+    "label": "page_header"
+  },
+  "region-0341": {
+    "self_ref": "#/texts/348",
+    "page_no": 20,
+    "label": "page_header"
+  },
+  "region-0342": {
+    "self_ref": "#/texts/349",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0343": {
+    "self_ref": "#/texts/350",
+    "page_no": 20,
+    "label": "section_header"
+  },
+  "region-0344": {
+    "self_ref": "#/texts/351",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0345": {
+    "self_ref": "#/texts/352",
+    "page_no": 20,
+    "label": "formula"
+  },
+  "region-0346": {
+    "self_ref": "#/texts/353",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0347": {
+    "self_ref": "#/pictures/13",
+    "page_no": 20,
+    "label": "picture"
+  },
+  "region-0348": {
+    "self_ref": "#/texts/355",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0349": {
+    "self_ref": "#/texts/356",
+    "page_no": 20,
+    "label": "section_header"
+  },
+  "region-0350": {
+    "self_ref": "#/texts/357",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0351": {
+    "self_ref": "#/texts/358",
+    "page_no": 20,
+    "label": "formula"
+  },
+  "region-0352": {
+    "self_ref": "#/texts/359",
+    "page_no": 20,
+    "label": "text"
+  },
+  "region-0353": {
+    "self_ref": "#/texts/360",
+    "page_no": 20,
+    "label": "page_footer"
+  },
+  "region-0354": {
+    "self_ref": "#/texts/361",
+    "page_no": 21,
+    "label": "page_header"
+  },
+  "region-0355": {
+    "self_ref": "#/texts/362",
+    "page_no": 21,
+    "label": "page_header"
+  },
+  "region-0356": {
+    "self_ref": "#/pictures/14",
+    "page_no": 21,
+    "label": "picture"
+  },
+  "region-0357": {
+    "self_ref": "#/texts/364",
+    "page_no": 21,
+    "label": "text"
+  },
+  "region-0358": {
+    "self_ref": "#/texts/365",
+    "page_no": 21,
+    "label": "section_header"
+  },
+  "region-0359": {
+    "self_ref": "#/texts/366",
+    "page_no": 21,
+    "label": "text"
+  },
+  "region-0360": {
+    "self_ref": "#/pictures/15",
+    "page_no": 21,
+    "label": "picture"
+  },
+  "region-0361": {
+    "self_ref": "#/texts/368",
+    "page_no": 21,
+    "label": "text"
+  },
+  "region-0362": {
+    "self_ref": "#/texts/369",
+    "page_no": 21,
+    "label": "section_header"
+  },
+  "region-0363": {
+    "self_ref": "#/texts/370",
+    "page_no": 21,
+    "label": "text"
+  },
+  "region-0364": {
+    "self_ref": "#/tables/0",
+    "page_no": 21,
+    "label": "table"
+  },
+  "region-0365": {
+    "self_ref": "#/texts/372",
+    "page_no": 21,
+    "label": "page_footer"
+  },
+  "region-0366": {
+    "self_ref": "#/texts/373",
+    "page_no": 22,
+    "label": "page_header"
+  },
+  "region-0367": {
+    "self_ref": "#/texts/374",
+    "page_no": 22,
+    "label": "page_header"
+  },
+  "region-0368": {
+    "self_ref": "#/texts/375",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0369": {
+    "self_ref": "#/texts/376",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0370": {
+    "self_ref": "#/texts/377",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0371": {
+    "self_ref": "#/texts/378",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0372": {
+    "self_ref": "#/texts/379",
+    "page_no": 22,
+    "label": "formula"
+  },
+  "region-0373": {
+    "self_ref": "#/texts/380",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0374": {
+    "self_ref": "#/texts/381",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0375": {
+    "self_ref": "#/texts/382",
+    "page_no": 22,
+    "label": "section_header"
+  },
+  "region-0376": {
+    "self_ref": "#/texts/383",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0377": {
+    "self_ref": "#/texts/384",
+    "page_no": 22,
+    "label": "text"
+  },
+  "region-0378": {
+    "self_ref": "#/texts/385",
+    "page_no": 22,
+    "label": "footnote"
+  },
+  "region-0379": {
+    "self_ref": "#/texts/386",
+    "page_no": 22,
+    "label": "page_footer"
+  },
+  "region-0380": {
+    "self_ref": "#/texts/387",
+    "page_no": 23,
+    "label": "page_header"
+  },
+  "region-0381": {
+    "self_ref": "#/texts/388",
+    "page_no": 23,
+    "label": "page_header"
+  },
+  "region-0382": {
+    "self_ref": "#/texts/389",
+    "page_no": 23,
+    "label": "section_header"
+  },
+  "region-0383": {
+    "self_ref": "#/texts/390",
+    "page_no": 23,
+    "label": "text"
+  },
+  "region-0384": {
+    "self_ref": "#/pictures/16",
+    "page_no": 23,
+    "label": "picture"
+  },
+  "region-0385": {
+    "self_ref": "#/texts/392",
+    "page_no": 23,
+    "label": "text"
+  },
+  "region-0386": {
+    "self_ref": "#/pictures/17",
+    "page_no": 23,
+    "label": "picture"
+  },
+  "region-0387": {
+    "self_ref": "#/texts/394",
+    "page_no": 23,
+    "label": "page_footer"
+  },
+  "region-0388": {
+    "self_ref": "#/texts/395",
+    "page_no": 24,
+    "label": "page_header"
+  },
+  "region-0389": {
+    "self_ref": "#/texts/396",
+    "page_no": 24,
+    "label": "page_header"
+  },
+  "region-0390": {
+    "self_ref": "#/texts/397",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0391": {
+    "self_ref": "#/texts/398",
+    "page_no": 24,
+    "label": "section_header"
+  },
+  "region-0392": {
+    "self_ref": "#/texts/399",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0393": {
+    "self_ref": "#/texts/400",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0394": {
+    "self_ref": "#/texts/401",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0395": {
+    "self_ref": "#/texts/402",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0396": {
+    "self_ref": "#/texts/403",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0397": {
+    "self_ref": "#/texts/404",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0398": {
+    "self_ref": "#/texts/405",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0399": {
+    "self_ref": "#/texts/406",
+    "page_no": 24,
+    "label": "text"
+  },
+  "region-0400": {
+    "self_ref": "#/texts/407",
+    "page_no": 24,
+    "label": "page_footer"
+  },
+  "region-0401": {
+    "self_ref": "#/texts/408",
+    "page_no": 25,
+    "label": "page_header"
+  },
+  "region-0402": {
+    "self_ref": "#/texts/409",
+    "page_no": 25,
+    "label": "page_header"
+  },
+  "region-0403": {
+    "self_ref": "#/texts/410",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0404": {
+    "self_ref": "#/texts/411",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0405": {
+    "self_ref": "#/texts/412",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0406": {
+    "self_ref": "#/texts/413",
+    "page_no": 25,
+    "label": "section_header"
+  },
+  "region-0407": {
+    "self_ref": "#/texts/414",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0408": {
+    "self_ref": "#/texts/415",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0409": {
+    "self_ref": "#/texts/416",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0410": {
+    "self_ref": "#/texts/417",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0411": {
+    "self_ref": "#/texts/418",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0412": {
+    "self_ref": "#/texts/419",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0413": {
+    "self_ref": "#/texts/420",
+    "page_no": 25,
+    "label": "section_header"
+  },
+  "region-0414": {
+    "self_ref": "#/texts/421",
+    "page_no": 25,
+    "label": "text"
+  },
+  "region-0415": {
+    "self_ref": "#/texts/422",
+    "page_no": 25,
+    "label": "page_footer"
+  },
+  "region-0416": {
+    "self_ref": "#/texts/423",
+    "page_no": 26,
+    "label": "page_header"
+  },
+  "region-0417": {
+    "self_ref": "#/texts/424",
+    "page_no": 26,
+    "label": "page_header"
+  },
+  "region-0418": {
+    "self_ref": "#/texts/425",
+    "page_no": 26,
+    "label": "section_header"
+  },
+  "region-0419": {
+    "self_ref": "#/texts/426",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0420": {
+    "self_ref": "#/texts/427",
+    "page_no": 26,
+    "label": "section_header"
+  },
+  "region-0421": {
+    "self_ref": "#/texts/428",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0422": {
+    "self_ref": "#/texts/429",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0423": {
+    "self_ref": "#/texts/430",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0424": {
+    "self_ref": "#/texts/431",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0425": {
+    "self_ref": "#/texts/432",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0426": {
+    "self_ref": "#/texts/433",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0427": {
+    "self_ref": "#/texts/434",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0428": {
+    "self_ref": "#/texts/435",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0429": {
+    "self_ref": "#/texts/436",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0430": {
+    "self_ref": "#/texts/437",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0431": {
+    "self_ref": "#/texts/438",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0432": {
+    "self_ref": "#/texts/439",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0433": {
+    "self_ref": "#/texts/440",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0434": {
+    "self_ref": "#/texts/441",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0435": {
+    "self_ref": "#/texts/442",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0436": {
+    "self_ref": "#/texts/443",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0437": {
+    "self_ref": "#/texts/444",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0438": {
+    "self_ref": "#/texts/445",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0439": {
+    "self_ref": "#/texts/446",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0440": {
+    "self_ref": "#/texts/447",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0441": {
+    "self_ref": "#/texts/448",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0442": {
+    "self_ref": "#/texts/449",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0443": {
+    "self_ref": "#/texts/450",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0444": {
+    "self_ref": "#/texts/451",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0445": {
+    "self_ref": "#/texts/452",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0446": {
+    "self_ref": "#/texts/453",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0447": {
+    "self_ref": "#/texts/454",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0448": {
+    "self_ref": "#/texts/455",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0449": {
+    "self_ref": "#/texts/456",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0450": {
+    "self_ref": "#/texts/457",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0451": {
+    "self_ref": "#/texts/458",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0452": {
+    "self_ref": "#/texts/459",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0453": {
+    "self_ref": "#/texts/460",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0454": {
+    "self_ref": "#/texts/461",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0455": {
+    "self_ref": "#/texts/462",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0456": {
+    "self_ref": "#/texts/463",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0457": {
+    "self_ref": "#/texts/464",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0458": {
+    "self_ref": "#/texts/465",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0459": {
+    "self_ref": "#/texts/466",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0460": {
+    "self_ref": "#/texts/467",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0461": {
+    "self_ref": "#/texts/468",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0462": {
+    "self_ref": "#/texts/469",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0463": {
+    "self_ref": "#/texts/470",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0464": {
+    "self_ref": "#/texts/471",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0465": {
+    "self_ref": "#/texts/472",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0466": {
+    "self_ref": "#/texts/473",
+    "page_no": 26,
+    "label": "text"
+  },
+  "region-0467": {
+    "self_ref": "#/texts/474",
+    "page_no": 26,
+    "label": "page_footer"
+  }
+}
