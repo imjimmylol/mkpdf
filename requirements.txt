@@ -1,0 +1,7 @@
+docling
+langgraph
+playwright
+pymupdf
+openai
+anthropic
+python-dotenv
