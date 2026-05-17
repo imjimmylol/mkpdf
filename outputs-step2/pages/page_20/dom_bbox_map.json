@@ -1,0 +1,187 @@
+{
+  "dom_header": {
+    "source_page": 20,
+    "page_slug": "page_20",
+    "html_path": "outputs-step2/pages/page_20/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_20/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 14
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0340",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0341",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0342",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "In the first panel, we illustrate how the loss function changes during training; in second panel, we",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0343",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "5.4. Euler-equation method with Kuhn-Tucker conditions",
+      "bbox": [
+        220.0,
+        318.65625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0344",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "The Euler objective function for Krusell and Smith (1998) model is parallel to the objective (30) of",
+      "bbox": [
+        220.0,
+        376.953125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0345",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        444.140625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0346",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "where the transitions are determined by (38) -(41) ; Y t = ( y 1 t , . . . , y ℓ t ) and W t = ( w 1",
+      "bbox": [
+        220.0,
+        485.734375,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0347",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "Fig. 11. Euler-equation method in Krusell and Smith's (1998) model.",
+      "bbox": [
+        220.0,
+        604.109375,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0348",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "For the Euler-equation method, the residuals are generally below 10 -3 (i.e., a fraction of a percen",
+      "bbox": [
+        220.0,
+        692.296875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0349",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "5.5. Objective 3: Bellman equation",
+      "bbox": [
+        220.0,
+        763.390625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0350",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "The Bellman objective function for Krusell and Smith (1998) model is also parallel to the objective ",
+      "bbox": [
+        220.0,
+        821.6875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0351",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        914.46875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0352",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "The results of training under the objective (45) are shown in Fig. 12 .",
+      "bbox": [
+        220.0,
+        956.0625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0353",
+      "source_page": 20,
+      "tag": "div",
+      "text_preview": "95",
+      "bbox": [
+        220.0,
+        997.65625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

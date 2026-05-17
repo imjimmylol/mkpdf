@@ -1,0 +1,259 @@
+{
+  "dom_header": {
+    "source_page": 5,
+    "page_slug": "page_05",
+    "html_path": "outputs-step2/pages/page_05/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_05/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1645
+    },
+    "bbox_count": 20
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0077",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0078",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0079",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "A potential shortcoming of the objective function (6) depends on a specific initial condition ( m 0 ",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0080",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        365.9375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0081",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "By solving max θ ∈ /Theta1 /Xi1(θ ) , we construct a decision rule ϕ ( ·; θ) that maximizes the life",
+      "bbox": [
+        220.0,
+        407.53125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0082",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "A new feature of the objective function /Xi1(θ ) is that it has two types of randomness: one is a ra",
+      "bbox": [
+        220.0,
+        474.71875,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0083",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "To reduce the cost of nested integration, we introduce all-in-one (AiO) expectation operator that co",
+      "bbox": [
+        220.0,
+        618.6875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0084",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Definition 2.4 (All-in-one expectation operator for lifetime reward) . Fix time horizon T > 0 , para",
+      "bbox": [
+        220.0,
+        685.875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0085",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        778.65625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0086",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "where transitions are determined by equations (1) , (2) and (3) , and ξ is an integrand.",
+      "bbox": [
+        220.0,
+        820.25,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0087",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "The AiO operator can significantly reduce the cost of evaluation expectations. Instead of making n ×",
+      "bbox": [
+        220.0,
+        861.84375,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0088",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "2.3. Objective 2: Euler-residual minimization",
+      "bbox": [
+        220.0,
+        984.125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0089",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "We next introduce a DL method that constructs a solution to the Euler equations. We consider a class",
+      "bbox": [
+        220.0,
+        1042.421875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0090",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Definition 2.5 (Euler equations) . Euler equations are a set of equations written in the form:",
+      "bbox": [
+        220.0,
+        1160.796875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0091",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "where the agent's choice satisfies constraints (1) , (2) and (3) expressed in a recursive form m ′ =",
+      "bbox": [
+        220.0,
+        1202.390625,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0092",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1295.171875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0093",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Equations (9) are again defined just for a given state ( m , s ) . The typical approach in computati",
+      "bbox": [
+        220.0,
+        1336.765625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0094",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Definition 2.6 (Euler-residual minimization) . Select a decision rule ϕ ( ·; θ) , and define a distr",
+      "bbox": [
+        220.0,
+        1455.140625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0095",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1522.328125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0096",
+      "source_page": 5,
+      "tag": "div",
+      "text_preview": "80",
+      "bbox": [
+        220.0,
+        1563.921875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

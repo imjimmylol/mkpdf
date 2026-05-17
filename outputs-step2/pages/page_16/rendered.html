@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_16</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="16">
+<div data-label="page_header" data-region-id="region-0273" data-self-ref="#/texts/280" data-source-page="16">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0274" data-self-ref="#/texts/281" data-source-page="16">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="picture" data-region-id="region-0275" data-self-ref="#/pictures/9" data-source-page="16">
+<figure><figcaption><div class="caption">Fig. 7. Comparison of integration, SGD and activation methods.</div></figcaption><img src="JME_DL_annotated_artifacts/image_000009_93f18c9921bb0d8f728f28196f55b21f88adbc481f6ccf8f5db0048ba5843ef7.png"/></figure>
+</div>
+<div data-label="text" data-region-id="region-0276" data-self-ref="#/texts/283" data-source-page="16">
+<p>In the first panel, we show the results in which we vary an integration method, namely, we consider the AiO method with 2 nodes, Monte Carlo (MC) method with 10 random draws, MC method with 100 random draws and very accurate Gauss Hermite quadrature with 10 nodes. We observe that the integration method we use plays a visible role in convergence. A very accurate quadrature method leads to the fastest convergence while low accuracy MC leads to slower convergence than the AiO method. In the second panel, we consider four training methods, namely, SGD with an updating parameter λ ∈ { 0 . 01 , 0 . 005 , 0 . 001 } and ADAM. We see that ADAM leads to the fastest convergence even though the convergence is noisier at the end with ADAM than with the other methods. Finally, in the last panel, we compare the convergence with different activation functions, namely, relu, lrely, sigmoid and tanh, and we document that they lead to comparable results.</p>
+</div>
+<div data-label="text" data-region-id="region-0277" data-self-ref="#/texts/284" data-source-page="16">
+<p>In Fig. 8 , we illustrate the scalability of the Euler-equation method. TensorFlow has a possibility of using batches where the same estimation is ran in parallel on multiple virtual cores. We vary the batch size from N = 8 to N = 8 , 192 draws and we document running time and Euler-equation residuals.</p>
+</div>
+<div data-label="picture" data-region-id="region-0278" data-self-ref="#/pictures/10" data-source-page="16">
+<figure><figcaption><div class="caption">Fig. 8. Effects of the batch size on the accuracy and speed.</div></figcaption><img src="JME_DL_annotated_artifacts/image_000010_438524575bfa33be45a60b8ddc28eb3b5d629350ad3761eac4ace3b6ccd4693a.png"/></figure>
+</div>
+<div data-label="text" data-region-id="region-0279" data-self-ref="#/texts/286" data-source-page="16">
+<p>In the left panel, we see that the training time changes roughly linearly with the batch size. In the right panel, we observe that a larger batch size leads to more accurate solutions although the convergence rate is similar for all batch sizes. The same is true for all the methods built on the AiO operator.</p>
+</div>
+<div data-label="section_header" data-region-id="region-0280" data-self-ref="#/texts/287" data-source-page="16">
+<h2>4.8. Multicollinearity, ill-conditioning and model reduction</h2>
+</div>
+<div data-label="text" data-region-id="region-0281" data-self-ref="#/texts/288" data-source-page="16">
+<p>We consider a version of the consumption-saving problem with multiple shocks,</p>
+</div>
+<div data-label="formula" data-region-id="region-0282" data-self-ref="#/texts/289" data-source-page="16">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="page_footer" data-region-id="region-0283" data-self-ref="#/texts/290" data-source-page="16">
+<p>91</p>
+</div>
+</div>
+</body></html>

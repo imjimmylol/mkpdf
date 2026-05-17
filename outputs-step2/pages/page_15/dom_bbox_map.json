@@ -1,0 +1,151 @@
+{
+  "dom_header": {
+    "source_page": 15,
+    "page_slug": "page_15",
+    "html_path": "outputs-step2/pages/page_15/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_15/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 11
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0262",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0263",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0264",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "Fig. 5. Bellman-equation method in the consumption-saving model.",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0265",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "Fig. 5 displays the changes in the objective function over the epochs (the first panel), the size of",
+      "bbox": [
+        220.0,
+        233.375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0266",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "4.6. Comparing decision rules",
+      "bbox": [
+        220.0,
+        432.4375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0267",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "In Fig. 6 , we plot decision rules for the three methods and simulated series for wealth.",
+      "bbox": [
+        220.0,
+        490.734375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0268",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "Fig. 6. Comparison of methods in the consumption-saving model.",
+      "bbox": [
+        220.0,
+        532.328125,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0269",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "We observe that the decision rule for the Bellman method appears to be less accurate than the other ",
+      "bbox": [
+        220.0,
+        620.515625,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0270",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "4.7. Euler-equation method: Sensitivity results",
+      "bbox": [
+        220.0,
+        717.203125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0271",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "We now limit attention to the Euler-equation method and dummyTXdummy- consider how its performance i",
+      "bbox": [
+        220.0,
+        775.5,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0272",
+      "source_page": 15,
+      "tag": "div",
+      "text_preview": "90",
+      "bbox": [
+        220.0,
+        842.6875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

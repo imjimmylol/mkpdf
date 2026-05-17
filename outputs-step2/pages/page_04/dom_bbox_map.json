@@ -1,0 +1,331 @@
+{
+  "dom_header": {
+    "source_page": 4,
+    "page_slug": "page_04",
+    "html_path": "outputs-step2/pages/page_04/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_04/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1608
+    },
+    "bbox_count": 26
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0051",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0052",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0053",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "2.1. A class of dynamic economic models",
+      "bbox": [
+        220.0,
+        149.09375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0054",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "We consider a class of dynamic Markov economic models with time-invariant decision functions - the m",
+      "bbox": [
+        220.0,
+        207.390625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0055",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Definition 2.1 (Optimization problem) . An exogenous state m t + 1 ∈ R n m follows a Markov process ",
+      "bbox": [
+        220.0,
+        274.578125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0056",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        341.765625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0057",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "An endogenous state s t + 1 is driven by the exogenous state m t and controlled by a choice x t ∈ R ",
+      "bbox": [
+        220.0,
+        383.359375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0058",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        424.953125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0059",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "The choice x t satisfies the constraint in the form",
+      "bbox": [
+        220.0,
+        466.546875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0060",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        508.140625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0061",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "The state ( m t , s t ) and choice x t determine the period reward r ( m t , s t , x t ) . The agent",
+      "bbox": [
+        220.0,
+        549.734375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0062",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        591.328125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0063",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "where β ∈ [ 0 , 1 ) is the discount factor and E 0 [ · ] is an expectation function across future sh",
+      "bbox": [
+        220.0,
+        632.921875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0064",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Without loss of generality, we assume that the constrained sets are re-mapped into a set of real num",
+      "bbox": [
+        220.0,
+        700.109375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0065",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Definition 2.2 (Decision rules) . i) An optimal decision rule is a function ϕ : R n m × R n s → R n ",
+      "bbox": [
+        220.0,
+        767.296875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0066",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Our goal is to find a vector of parameters θ ∈ /Theta1 under which the parametric decision rule ϕ ( ",
+      "bbox": [
+        220.0,
+        885.671875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0067",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "2.2. Objective 1: Lifetime-reward maximization",
+      "bbox": [
+        220.0,
+        1007.953125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0068",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "We first introduce a method that maximizes the lifetime reward (4) directly.",
+      "bbox": [
+        220.0,
+        1066.25,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0069",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Definition 2.3 (Value function) . For a given distribution of shocks ( ϵ 1 , . . . , ϵ T ) , value f",
+      "bbox": [
+        220.0,
+        1107.84375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0070",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1175.03125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0071",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "where transitions are determined by equations (1), (2) and (3) .",
+      "bbox": [
+        220.0,
+        1216.625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0072",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "For numerical approximation of V , we replace the infinite-horizon problem with a finite-horizon pro",
+      "bbox": [
+        220.0,
+        1258.21875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0073",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1325.40625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0074",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "Our first method constructs approximation ϕ ( ·; θ) to the optimal decision rule by searching for a ",
+      "bbox": [
+        220.0,
+        1367.0,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0075",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "4 A general model formulation in this paper matches standard API used by modeling software Dolo avai",
+      "bbox": [
+        220.0,
+        1434.1875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0076",
+      "source_page": 4,
+      "tag": "div",
+      "text_preview": "79",
+      "bbox": [
+        220.0,
+        1526.96875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

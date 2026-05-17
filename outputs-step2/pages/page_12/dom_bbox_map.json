@@ -1,0 +1,247 @@
+{
+  "dom_header": {
+    "source_page": 12,
+    "page_slug": "page_12",
+    "html_path": "outputs-step2/pages/page_12/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_12/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1412
+    },
+    "bbox_count": 19
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0215",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0216",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0217",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Bellman equation. The solution to (20) -(23) can be also characterized by Bellman equation:",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0218",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        186.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0219",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        212.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0220",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "subject to constraints (21) and (22) and transition equation (23) written in recursive form. The max",
+      "bbox": [
+        220.0,
+        253.96875,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0221",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "4.2. Deep learning solution method",
+      "bbox": [
+        220.0,
+        401.84375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0222",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "To implement the lifetime reward, Euler and Bellman methods, we used Algorithm 1 formulated in Secti",
+      "bbox": [
+        220.0,
+        460.140625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0223",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "We construct the solutions using a neural network with two identical hidden layers, composed of (lea",
+      "bbox": [
+        220.0,
+        527.328125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0224",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        620.109375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0225",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        645.703125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0226",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "where η( ·; ϑ ) is a neural network, θ ≡ ( ζ 0 , ϑ ) and σ( x ) = 1 1 + e -x is a sigmoid transforma",
+      "bbox": [
+        220.0,
+        687.296875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0227",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Our parametrization is constructed to take into account the properties of economic variables. A sigm",
+      "bbox": [
+        220.0,
+        754.484375,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0228",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "We train the model using a version of the stochastic gradient descent method, called ADAM , with an ",
+      "bbox": [
+        220.0,
+        898.453125,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0229",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "4.3. Lifetime reward",
+      "bbox": [
+        220.0,
+        1097.515625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0230",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "The objective function for the lifetime reward for the model (20) -(23) follows directly from our ge",
+      "bbox": [
+        220.0,
+        1155.8125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0231",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1223.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0232",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "To construct (27) , i.e., to implement Step 2i) of Algorithm 1, we use the assumed decision rule c t",
+      "bbox": [
+        220.0,
+        1264.59375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0233",
+      "source_page": 12,
+      "tag": "div",
+      "text_preview": "87",
+      "bbox": [
+        220.0,
+        1331.78125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

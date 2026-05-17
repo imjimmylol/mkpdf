@@ -1,0 +1,187 @@
+{
+  "dom_header": {
+    "source_page": 22,
+    "page_slug": "page_22",
+    "html_path": "outputs-step2/pages/page_22/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_22/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1549
+    },
+    "bbox_count": 14
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0366",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0367",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0368",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "In the first column, we show that all the studied models have practically the same standard deviatio",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0369",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Columns 3-6 report the Gini coefficient of the wealth distribution and the share of income by quanti",
+      "bbox": [
+        220.0,
+        289.15625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0370",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Column 7 reports the running time. We see that the time varies from 522 to 43,241 seconds which is n",
+      "bbox": [
+        220.0,
+        407.53125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0371",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Finally, column 8 contains the most interesting and controversial statistic which is R 2 of Krusell ",
+      "bbox": [
+        220.0,
+        500.3125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0372",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        541.90625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0373",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "i.e., a regression of aggregate capital on the past aggregate capital and aggregate productivity; se",
+      "bbox": [
+        220.0,
+        583.5,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0374",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "However, our analysis is not exactly identical to the one studied by Krusell and Smith (1998) . They",
+      "bbox": [
+        220.0,
+        727.46875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0375",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "5.8. Deep learning method with a reduced state space",
+      "bbox": [
+        220.0,
+        900.9375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0376",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "To reduce the computational expense, Krusell and Smith (1998) came up with a simple and effective id",
+      "bbox": [
+        220.0,
+        959.234375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0377",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "Our deep learning framework provides a simple way to incorporate Krusell and Smith (1998) idea of us",
+      "bbox": [
+        220.0,
+        1154.390625,
+        1000.0,
+        230.34375
+      ]
+    },
+    {
+      "anchor_id": "region-0378",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "11 Other early approaches to solving heterogeneous agent models are offered by Den Haan (1997) ; Jud",
+      "bbox": [
+        220.0,
+        1400.734375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0379",
+      "source_page": 22,
+      "tag": "div",
+      "text_preview": "97",
+      "bbox": [
+        220.0,
+        1467.921875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "total_source_pages": 26,
+  "source_pdf_path": "paper/JME_DL.pdf",
+  "annotated_html_path": "outputs-test-std/JME_DL_annotated.html",
+  "pages": [
+    {
+      "source_page": 1,
+      "page_slug": "page_01",
+      "dom_bbox_map_path": "outputs-step2/pages/page_01/dom_bbox_map.json"
+    },
+    {
+      "source_page": 2,
+      "page_slug": "page_02",
+      "dom_bbox_map_path": "outputs-step2/pages/page_02/dom_bbox_map.json"
+    },
+    {
+      "source_page": 3,
+      "page_slug": "page_03",
+      "dom_bbox_map_path": "outputs-step2/pages/page_03/dom_bbox_map.json"
+    },
+    {
+      "source_page": 4,
+      "page_slug": "page_04",
+      "dom_bbox_map_path": "outputs-step2/pages/page_04/dom_bbox_map.json"
+    },
+    {
+      "source_page": 5,
+      "page_slug": "page_05",
+      "dom_bbox_map_path": "outputs-step2/pages/page_05/dom_bbox_map.json"
+    },
+    {
+      "source_page": 6,
+      "page_slug": "page_06",
+      "dom_bbox_map_path": "outputs-step2/pages/page_06/dom_bbox_map.json"
+    },
+    {
+      "source_page": 7,
+      "page_slug": "page_07",
+      "dom_bbox_map_path": "outputs-step2/pages/page_07/dom_bbox_map.json"
+    },
+    {
+      "source_page": 8,
+      "page_slug": "page_08",
+      "dom_bbox_map_path": "outputs-step2/pages/page_08/dom_bbox_map.json"
+    },
+    {
+      "source_page": 9,
+      "page_slug": "page_09",
+      "dom_bbox_map_path": "outputs-step2/pages/page_09/dom_bbox_map.json"
+    },
+    {
+      "source_page": 10,
+      "page_slug": "page_10",
+      "dom_bbox_map_path": "outputs-step2/pages/page_10/dom_bbox_map.json"
+    },
+    {
+      "source_page": 11,
+      "page_slug": "page_11",
+      "dom_bbox_map_path": "outputs-step2/pages/page_11/dom_bbox_map.json"
+    },
+    {
+      "source_page": 12,
+      "page_slug": "page_12",
+      "dom_bbox_map_path": "outputs-step2/pages/page_12/dom_bbox_map.json"
+    },
+    {
+      "source_page": 13,
+      "page_slug": "page_13",
+      "dom_bbox_map_path": "outputs-step2/pages/page_13/dom_bbox_map.json"
+    },
+    {
+      "source_page": 14,
+      "page_slug": "page_14",
+      "dom_bbox_map_path": "outputs-step2/pages/page_14/dom_bbox_map.json"
+    },
+    {
+      "source_page": 15,
+      "page_slug": "page_15",
+      "dom_bbox_map_path": "outputs-step2/pages/page_15/dom_bbox_map.json"
+    },
+    {
+      "source_page": 16,
+      "page_slug": "page_16",
+      "dom_bbox_map_path": "outputs-step2/pages/page_16/dom_bbox_map.json"
+    },
+    {
+      "source_page": 17,
+      "page_slug": "page_17",
+      "dom_bbox_map_path": "outputs-step2/pages/page_17/dom_bbox_map.json"
+    },
+    {
+      "source_page": 18,
+      "page_slug": "page_18",
+      "dom_bbox_map_path": "outputs-step2/pages/page_18/dom_bbox_map.json"
+    },
+    {
+      "source_page": 19,
+      "page_slug": "page_19",
+      "dom_bbox_map_path": "outputs-step2/pages/page_19/dom_bbox_map.json"
+    },
+    {
+      "source_page": 20,
+      "page_slug": "page_20",
+      "dom_bbox_map_path": "outputs-step2/pages/page_20/dom_bbox_map.json"
+    },
+    {
+      "source_page": 21,
+      "page_slug": "page_21",
+      "dom_bbox_map_path": "outputs-step2/pages/page_21/dom_bbox_map.json"
+    },
+    {
+      "source_page": 22,
+      "page_slug": "page_22",
+      "dom_bbox_map_path": "outputs-step2/pages/page_22/dom_bbox_map.json"
+    },
+    {
+      "source_page": 23,
+      "page_slug": "page_23",
+      "dom_bbox_map_path": "outputs-step2/pages/page_23/dom_bbox_map.json"
+    },
+    {
+      "source_page": 24,
+      "page_slug": "page_24",
+      "dom_bbox_map_path": "outputs-step2/pages/page_24/dom_bbox_map.json"
+    },
+    {
+      "source_page": 25,
+      "page_slug": "page_25",
+      "dom_bbox_map_path": "outputs-step2/pages/page_25/dom_bbox_map.json"
+    },
+    {
+      "source_page": 26,
+      "page_slug": "page_26",
+      "dom_bbox_map_path": "outputs-step2/pages/page_26/dom_bbox_map.json"
+    }
+  ],
+  "pairs": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "pair_slug": "pair_01_02",
+      "summary_path": "outputs-step2/pairs/pair_01_02/summary.json"
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "pair_slug": "pair_02_03",
+      "summary_path": "outputs-step2/pairs/pair_02_03/summary.json"
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "pair_slug": "pair_03_04",
+      "summary_path": "outputs-step2/pairs/pair_03_04/summary.json"
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "pair_slug": "pair_04_05",
+      "summary_path": "outputs-step2/pairs/pair_04_05/summary.json"
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "pair_slug": "pair_05_06",
+      "summary_path": "outputs-step2/pairs/pair_05_06/summary.json"
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "pair_slug": "pair_06_07",
+      "summary_path": "outputs-step2/pairs/pair_06_07/summary.json"
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "pair_slug": "pair_07_08",
+      "summary_path": "outputs-step2/pairs/pair_07_08/summary.json"
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "pair_slug": "pair_08_09",
+      "summary_path": "outputs-step2/pairs/pair_08_09/summary.json"
+    },
+    {
+      "pair": [
+        9,
+        10
+      ],
+      "pair_slug": "pair_09_10",
+      "summary_path": "outputs-step2/pairs/pair_09_10/summary.json"
+    },
+    {
+      "pair": [
+        10,
+        11
+      ],
+      "pair_slug": "pair_10_11",
+      "summary_path": "outputs-step2/pairs/pair_10_11/summary.json"
+    },
+    {
+      "pair": [
+        11,
+        12
+      ],
+      "pair_slug": "pair_11_12",
+      "summary_path": "outputs-step2/pairs/pair_11_12/summary.json"
+    },
+    {
+      "pair": [
+        12,
+        13
+      ],
+      "pair_slug": "pair_12_13",
+      "summary_path": "outputs-step2/pairs/pair_12_13/summary.json"
+    },
+    {
+      "pair": [
+        13,
+        14
+      ],
+      "pair_slug": "pair_13_14",
+      "summary_path": "outputs-step2/pairs/pair_13_14/summary.json"
+    },
+    {
+      "pair": [
+        14,
+        15
+      ],
+      "pair_slug": "pair_14_15",
+      "summary_path": "outputs-step2/pairs/pair_14_15/summary.json"
+    },
+    {
+      "pair": [
+        15,
+        16
+      ],
+      "pair_slug": "pair_15_16",
+      "summary_path": "outputs-step2/pairs/pair_15_16/summary.json"
+    },
+    {
+      "pair": [
+        16,
+        17
+      ],
+      "pair_slug": "pair_16_17",
+      "summary_path": "outputs-step2/pairs/pair_16_17/summary.json"
+    },
+    {
+      "pair": [
+        17,
+        18
+      ],
+      "pair_slug": "pair_17_18",
+      "summary_path": "outputs-step2/pairs/pair_17_18/summary.json"
+    },
+    {
+      "pair": [
+        18,
+        19
+      ],
+      "pair_slug": "pair_18_19",
+      "summary_path": "outputs-step2/pairs/pair_18_19/summary.json"
+    },
+    {
+      "pair": [
+        19,
+        20
+      ],
+      "pair_slug": "pair_19_20",
+      "summary_path": "outputs-step2/pairs/pair_19_20/summary.json"
+    },
+    {
+      "pair": [
+        20,
+        21
+      ],
+      "pair_slug": "pair_20_21",
+      "summary_path": "outputs-step2/pairs/pair_20_21/summary.json"
+    },
+    {
+      "pair": [
+        21,
+        22
+      ],
+      "pair_slug": "pair_21_22",
+      "summary_path": "outputs-step2/pairs/pair_21_22/summary.json"
+    },
+    {
+      "pair": [
+        22,
+        23
+      ],
+      "pair_slug": "pair_22_23",
+      "summary_path": "outputs-step2/pairs/pair_22_23/summary.json"
+    },
+    {
+      "pair": [
+        23,
+        24
+      ],
+      "pair_slug": "pair_23_24",
+      "summary_path": "outputs-step2/pairs/pair_23_24/summary.json"
+    },
+    {
+      "pair": [
+        24,
+        25
+      ],
+      "pair_slug": "pair_24_25",
+      "summary_path": "outputs-step2/pairs/pair_24_25/summary.json"
+    },
+    {
+      "pair": [
+        25,
+        26
+      ],
+      "pair_slug": "pair_25_26",
+      "summary_path": "outputs-step2/pairs/pair_25_26/summary.json"
+    }
+  ]
+}

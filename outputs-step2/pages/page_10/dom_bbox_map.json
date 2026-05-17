@@ -1,0 +1,235 @@
+{
+  "dom_header": {
+    "source_page": 10,
+    "page_slug": "page_10",
+    "html_path": "outputs-step2/pages/page_10/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_10/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1638
+    },
+    "bbox_count": 18
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0171",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0172",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0173",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0174",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "The limiting case of n = 1 in (19) corresponds to a stochastic gradient descent (SGD) method that ap",
+      "bbox": [
+        220.0,
+        186.78125,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0175",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "DL solution algorithm. We now combine the above numerical techniques into a DL solution algorithm.",
+      "bbox": [
+        220.0,
+        381.9375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0176",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Algorithm 1 has multiple hyperparameters including the topology of neural network, the learning rate",
+      "bbox": [
+        220.0,
+        423.53125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0177",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Algorithm 1 DL algorithm for solving dynamic economic models.",
+      "bbox": [
+        220.0,
+        494.625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0178",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Step 1. Initialize the algorithm:",
+      "bbox": [
+        220.0,
+        552.921875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0179",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "i). construct theoretical risk /Xi1(θ ) = E ω [ ξ( ω ; θ) ] (lifetime reward, Euler/Bellmanequations",
+      "bbox": [
+        220.0,
+        594.515625,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0180",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Step 2. Train the machine, i.e., find θ that minimizes theempirical risk /Xi1 n (θ ) :",
+      "bbox": [
+        220.0,
+        687.296875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0181",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "i). simulate the model to produce data { ω i } n i = 1 by using the decision rule ϕ ( · , θ) ; ii). ",
+      "bbox": [
+        220.0,
+        728.890625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0182",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Step 3. Assess the accuracy of constructed approximation ϕ ( · , θ) on a new sample.",
+      "bbox": [
+        220.0,
+        796.078125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0183",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "iii). update the coefficients ̂ θ = θ -λ k ∇ /Xi1 n (θ ) and go to step 2.i); End Step 2 if the conv",
+      "bbox": [
+        220.0,
+        837.671875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0184",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "ters such as Tykhonov and Lasso regularization parameters for dealing with overfitting and ill-condi",
+      "bbox": [
+        220.0,
+        879.265625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0185",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "Finally, to implement the DL solution method, we use the Python programming language and Google Tens",
+      "bbox": [
+        220.0,
+        997.640625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0186",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "How our deep learning method differs from the conventional projection method. To appreciate the adva",
+      "bbox": [
+        220.0,
+        1167.203125,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0187",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "What makes the canonical projection method expensive in high dimensional applications? i) The volume",
+      "bbox": [
+        220.0,
+        1336.765625,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0188",
+      "source_page": 10,
+      "tag": "div",
+      "text_preview": "85",
+      "bbox": [
+        220.0,
+        1557.515625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

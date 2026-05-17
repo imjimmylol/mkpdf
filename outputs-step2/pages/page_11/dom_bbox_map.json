@@ -1,0 +1,331 @@
+{
+  "dom_header": {
+    "source_page": 11,
+    "page_slug": "page_11",
+    "html_path": "outputs-step2/pages/page_11/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_11/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1755
+    },
+    "bbox_count": 26
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0189",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0190",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0191",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Our DL analysis addresses all these shortcomings: i) our simulation-based domain focuses on the ergo",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        230.34375
+      ]
+    },
+    {
+      "anchor_id": "region-0192",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "4. Numerical analysis of the consumption-saving problem",
+      "bbox": [
+        220.0,
+        395.4375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0193",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "In this section, we solve a one-agent consumption-saving problem with an occasionally binding borrow",
+      "bbox": [
+        220.0,
+        453.734375,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0194",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "4.1. The consumption-saving problem",
+      "bbox": [
+        220.0,
+        576.015625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0195",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "We consider a simple consumption-saving problem with a borrowing constraint:",
+      "bbox": [
+        220.0,
+        634.3125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0196",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        675.90625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0197",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        701.5,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0198",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "c",
+      "bbox": [
+        220.0,
+        743.09375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0199",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "t",
+      "bbox": [
+        220.0,
+        784.6875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0200",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "≤",
+      "bbox": [
+        220.0,
+        826.28125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0201",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "w",
+      "bbox": [
+        220.0,
+        867.875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0202",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "t",
+      "bbox": [
+        220.0,
+        909.46875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0203",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": ",",
+      "bbox": [
+        220.0,
+        951.0625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0204",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "(22)",
+      "bbox": [
+        220.0,
+        992.65625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0205",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "where c t and w t are consumption and cash-on-hand, respectively; u is a utility function, which is ",
+      "bbox": [
+        220.0,
+        1034.25,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0206",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1101.4375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0207",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "where | ρ | < 1 and σ > 0 . The borrowing limit in (22) is set to zero without loss of generality. W",
+      "bbox": [
+        220.0,
+        1143.03125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0208",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "To facilitate the exposition of the algorithm, we make two simplifying assumptions: First, we assume",
+      "bbox": [
+        220.0,
+        1210.21875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0209",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Euler equation. The solution to (20) -(23) can be characterized by Kuhn-Tucker conditions",
+      "bbox": [
+        220.0,
+        1379.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0210",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1421.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0211",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1446.96875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0212",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "where A = w -c and H ≡ u ′ ( c ) -β rE ϵ [ u ′ ( c ′ )] is a Lagrange multiplier. To construct a DL ",
+      "bbox": [
+        220.0,
+        1488.5625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0213",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "where a ≡ 1 -c w and h ≡ 1 -β rE ϵ [ u ′ ( c ′ ) ] u ′ ( c ) are expressed in unit-free form. The FB",
+      "bbox": [
+        220.0,
+        1555.75,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0214",
+      "source_page": 11,
+      "tag": "div",
+      "text_preview": "86",
+      "bbox": [
+        220.0,
+        1674.125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

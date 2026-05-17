@@ -1,0 +1,187 @@
+{
+  "dom_header": {
+    "source_page": 14,
+    "page_slug": "page_14",
+    "html_path": "outputs-step2/pages/page_14/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_14/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 14
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0248",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0249",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0250",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "The results of training under the objective (30) are shown in Fig. 4 .",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0251",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Fig. 4. Euler-equation method in the consumption-saving model.",
+      "bbox": [
+        220.0,
+        186.78125,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0252",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Again, as in the previous figure, we plot the objective function - Euler residuals, the size of the ",
+      "bbox": [
+        220.0,
+        274.96875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0253",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "4.5. Objective 3: Bellman equation",
+      "bbox": [
+        220.0,
+        397.25,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0254",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "For the Bellman-equation method, the objective function (14) includes the residuals in the Bellman e",
+      "bbox": [
+        220.0,
+        455.546875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0255",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        522.734375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0256",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "By following the same approach as in the case of the Euler-equation method, we introduce a separate ",
+      "bbox": [
+        220.0,
+        564.328125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0257",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        631.515625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0258",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "The objective function (32) is the one that we use as an input for deep learning Algorithm 1. To imp",
+      "bbox": [
+        220.0,
+        673.109375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0259",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "The choice of weights v and v h is a nontrivial problem. While in the previous methods, we expressed",
+      "bbox": [
+        220.0,
+        765.890625,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0260",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "Fig. 5 plots the training process for Objective 3 when neural networks have different number of neur",
+      "bbox": [
+        220.0,
+        909.859375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0261",
+      "source_page": 14,
+      "tag": "div",
+      "text_preview": "89",
+      "bbox": [
+        220.0,
+        951.453125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

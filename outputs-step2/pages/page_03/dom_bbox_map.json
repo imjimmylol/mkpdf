@@ -1,0 +1,163 @@
+{
+  "dom_header": {
+    "source_page": 3,
+    "page_slug": "page_03",
+    "html_path": "outputs-step2/pages/page_03/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_03/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1696
+    },
+    "bbox_count": 12
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0039",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0040",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0041",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "We next propose a cheaper deep learning method that replaces the actual state space composed of dist",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0042",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "We finally compare the solutions constructed with actual state space to those produced with a reduce",
+      "bbox": [
+        220.0,
+        340.34375,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0043",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "Our solution method is related to supervised-learning (because we fit the decision and value functio",
+      "bbox": [
+        220.0,
+        561.09375,
+        1000.0,
+        307.125
+      ]
+    },
+    {
+      "anchor_id": "region-0044",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "Furthermore, machine learning methods for model reduction and dealing with ill-conditioning are anal",
+      "bbox": [
+        220.0,
+        884.21875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0045",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "Finally, early applications of neural networks date back to Duffy and McNelis (2001) and more recent",
+      "bbox": [
+        220.0,
+        1002.59375,
+        1000.0,
+        255.9375
+      ]
+    },
+    {
+      "anchor_id": "region-0046",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "in Gorodnichenko et al. (2020) for solving a version of heterogeneous-agent new Keynesian model with",
+      "bbox": [
+        220.0,
+        1274.53125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0047",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "The rest of the paper is organized as follows: Section 2 shows how to cast three main objects of eco",
+      "bbox": [
+        220.0,
+        1316.125,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0048",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "2. Casting dynamic economic models into DL expectation functions",
+      "bbox": [
+        220.0,
+        1438.40625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0049",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "Deep learning platforms such as TensorFlow or PyTorch provide efficient ways of numerically approxim",
+      "bbox": [
+        220.0,
+        1496.703125,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0050",
+      "source_page": 3,
+      "tag": "div",
+      "text_preview": "78",
+      "bbox": [
+        220.0,
+        1615.078125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

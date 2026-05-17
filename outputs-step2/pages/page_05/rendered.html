@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_05</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="5">
+<div data-label="page_header" data-region-id="region-0077" data-self-ref="#/texts/81" data-source-page="5">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0078" data-self-ref="#/texts/82" data-source-page="5">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="text" data-region-id="region-0079" data-self-ref="#/texts/83" data-source-page="5">
+<p>A potential shortcoming of the objective function (6) depends on a specific initial condition ( m 0 , s 0 ) . If we always start simulation from the same initial condition, we get an accurate approximation in a neighborhood of this specific initial condition but not for the states further away from this initial condition. Although the simulated series { ( m t , s t ) } T t = 0 may pass many values, the contribution of future utility levels to the lifetime reward decreases with time due to discounting, so the initial condition still dominates accuracy. A possible way to achieve high accuracy on a larger domain would be to construct a solution on a grid of initial conditions { ( m 0 , s 0 ) } . However, here, we propose an alternative approach which is more suitable for Monte Carlo simulation implemented by deep learning tools, namely, we reformulate (6) as an expectation function. Instead of a fixed grid, we assume that initial condition ( m 0 , s 0 ) is drawn randomly from the domain on which we want the solution to be accurate, which yields the following objective function:</p>
+</div>
+<div data-label="formula" data-region-id="region-0080" data-self-ref="#/texts/84" data-source-page="5">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="text" data-region-id="region-0081" data-self-ref="#/texts/85" data-source-page="5">
+<p>By solving max θ ∈ /Theta1 /Xi1(θ ) , we construct a decision rule ϕ ( ·; θ) that maximizes the lifetime reward for a given distribution of initial conditions.</p>
+</div>
+<div data-label="text" data-region-id="region-0082" data-self-ref="#/texts/86" data-source-page="5">
+<p>A new feature of the objective function /Xi1(θ ) is that it has two types of randomness: one is a random sequence of future shocks ( ϵ 1 , . . . , ϵ T ) , which appears because the model is stochastic, and the other is a random state ( m 0 , s 0 ) , which we created ourselves because we converted the initial condition into a random variable. Approximating two nested expectation operators, one after the other, is costly, especially in high dimensional applications. That is, if we make n draws for evaluating expectation with respect to ( m 0 , s 0 ) and if we make n ′ draws for evaluating expectation with respect to ( ϵ 1 , . . . , ϵ T ) , in total, we must evaluate n × n ′ draws.</p>
+</div>
+<div data-label="text" data-region-id="region-0083" data-self-ref="#/texts/87" data-source-page="5">
+<p>To reduce the cost of nested integration, we introduce all-in-one (AiO) expectation operator that combines the two expectation operators into one.</p>
+</div>
+<div data-label="text" data-region-id="region-0084" data-self-ref="#/texts/88" data-source-page="5">
+<p>Definition 2.4 (All-in-one expectation operator for lifetime reward) . Fix time horizon T &gt; 0 , parametrize a decision rule ϕ ( ·; θ) and define the distribution of the random variable ω ≡ ( m 0 , s 0 , ϵ 1 , . . . , ϵ T ) . For given θ , lifetime reward (4) associated with the rule ϕ ( ·; θ) is given by</p>
+</div>
+<div data-label="formula" data-region-id="region-0085" data-self-ref="#/texts/89" data-source-page="5">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="text" data-region-id="region-0086" data-self-ref="#/texts/90" data-source-page="5">
+<p>where transitions are determined by equations (1) , (2) and (3) , and ξ is an integrand.</p>
+</div>
+<div data-label="text" data-region-id="region-0087" data-self-ref="#/texts/91" data-source-page="5">
+<p>The AiO operator can significantly reduce the cost of evaluation expectations. Instead of making n × n ′ draws for the two random vectors ( m 0 , s 0 ) and ( ϵ 1 , . . . , ϵ T ) , we make just n draws for a composite random variable ( m 0 , s 0 , ϵ 1 , . . . , ϵ T ) . Constructing the AiO operator is easy for the lifetime reward maximization studied in this section but it will be more challenging for the Euler and Bellman methods studied in next sections.</p>
+</div>
+<div data-label="section_header" data-region-id="region-0088" data-self-ref="#/texts/92" data-source-page="5">
+<h2>2.3. Objective 2: Euler-residual minimization</h2>
+</div>
+<div data-label="text" data-region-id="region-0089" data-self-ref="#/texts/93" data-source-page="5">
+<p>We next introduce a DL method that constructs a solution to the Euler equations. We consider a class of economic models in which the objective functions are differentiable, so that the solution is characterized by a set of first-order conditions (Euler equations). Such equations may follow from an optimal control problem of type (4) or from an equilibrium problem and may include first-order conditions, equilibrium conditions, transition equations, constraints, market clearing conditions, etc.</p>
+</div>
+<div data-label="text" data-region-id="region-0090" data-self-ref="#/texts/94" data-source-page="5">
+<p>Definition 2.5 (Euler equations) . Euler equations are a set of equations written in the form:</p>
+</div>
+<div data-label="text" data-region-id="region-0091" data-self-ref="#/texts/95" data-source-page="5">
+<p>where the agent's choice satisfies constraints (1) , (2) and (3) expressed in a recursive form m ′ = M ( m , ϵ) , s ′ = S ( m , s , x , m ′ ) and x ∈ X ( m , s ) , respectively; f j : R n m × R n s × R n x × R n m × R n s × R n x → R and E ϵ [ · ] is an expectation operator with respect to the next-period shock ϵ .</p>
+</div>
+<div data-label="formula" data-region-id="region-0092" data-self-ref="#/texts/96" data-source-page="5">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="text" data-region-id="region-0093" data-self-ref="#/texts/97" data-source-page="5">
+<p>Equations (9) are again defined just for a given state ( m , s ) . The typical approach in computational economics is to solve the Euler equation on a fixed grid that covers a relevant area of the state space. Like with lifetime reward, we do not follow this approach but assume that states ( m , s ) are drawn randomly from a given distribution. The corresponding objective function is defined as an expected squared sum of residuals in the Euler equations for a given distribution of states.</p>
+</div>
+<div data-label="text" data-region-id="region-0094" data-self-ref="#/texts/98" data-source-page="5">
+<p>Definition 2.6 (Euler-residual minimization) . Select a decision rule ϕ ( ·; θ) , and define a distribution of random variable ( m , s ) . For given θ , the expected squared residuals in the Euler equations (9) associated with the rule ϕ ( ·; θ) are given by</p>
+</div>
+<div data-label="formula" data-region-id="region-0095" data-self-ref="#/texts/99" data-source-page="5">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="page_footer" data-region-id="region-0096" data-self-ref="#/texts/100" data-source-page="5">
+<p>80</p>
+</div>
+</div>
+</body></html>

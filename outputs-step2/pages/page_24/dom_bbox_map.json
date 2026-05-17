@@ -1,0 +1,175 @@
+{
+  "dom_header": {
+    "source_page": 24,
+    "page_slug": "page_24",
+    "html_path": "outputs-step2/pages/page_24/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_24/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1712
+    },
+    "bbox_count": 13
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0388",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0389",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0390",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Why does adding neurons help but adding more moments does not? This is because the second moments do",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0391",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "6. Discussion: Deep learning in economic dynamics",
+      "bbox": [
+        220.0,
+        318.65625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0392",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "In this section, we discuss a broad set of issues related to applying deep learning in economic dyna",
+      "bbox": [
+        220.0,
+        376.953125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0393",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "The main novelty: computational technology! There is not much methodological novelty in the canonica",
+      "bbox": [
+        220.0,
+        444.140625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0394",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "However, machine learning is so technology intensive that DL methods were put aside until platforms ",
+      "bbox": [
+        220.0,
+        562.515625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0395",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Learning is always deep in economic models. In data science, learning is called 'deep' because neura",
+      "bbox": [
+        220.0,
+        680.890625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0396",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Data are truly random in economic dynamics. In data science, a data set is usually fixed and batches",
+      "bbox": [
+        220.0,
+        850.453125,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0397",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Antithetic variates improve efficiency of Monte Carlo integration. Monte Carlo integration has a low",
+      "bbox": [
+        220.0,
+        994.421875,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0398",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Lifetime reward maximization with deterministic integration of shocks. For the Eulerand Bellman-equa",
+      "bbox": [
+        220.0,
+        1189.578125,
+        1000.0,
+        255.9375
+      ]
+    },
+    {
+      "anchor_id": "region-0399",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "Nested local approximations and deterministic models. Each of the three constructed objective functi",
+      "bbox": [
+        220.0,
+        1461.515625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0400",
+      "source_page": 24,
+      "tag": "div",
+      "text_preview": "99",
+      "bbox": [
+        220.0,
+        1631.078125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

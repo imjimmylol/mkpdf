@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_02</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="2">
+<div data-label="page_header" data-region-id="region-0026" data-self-ref="#/texts/30" data-source-page="2">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0027" data-self-ref="#/texts/31" data-source-page="2">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="text" data-region-id="region-0028" data-self-ref="#/texts/32" data-source-page="2">
+<p>that it is possible to solve many challenging economic models by using the same AI technology, software and hardware that led to groundbreaking applications in data science. We specifically introduce an econometric-style deep learning (DL) method that solves dynamic economic models by reformulating them as nonlinear regression equations. Our four novel results are stated below:</p>
+</div>
+<div data-label="text" data-region-id="region-0029" data-self-ref="#/texts/33" data-source-page="2">
+<p>First, we offer a unified approach which allows us to cast three fundamental objects of economic dynamics -lifetime reward functions, Bellman equations and Euler equations - into objective functions for Monte Carlo simulation. Such objective functions are given by a weighted sum of all of the model's equations, so we iterate on the entire model and solve for all decision functions at once. To optimize the constructed objective functions, we use deep learning regression techniques from the fields of econometrics and data science. Once the regression coefficients are constructed, we infer the value and decision functions of the underlying dynamic economic models.</p>
+</div>
+<div data-label="text" data-region-id="region-0030" data-self-ref="#/texts/34" data-source-page="2">
+<p>Second, we show how to adapt a stochastic gradient descent method to training of the three constructed objective functions. In each iteration, we use just one or a few (batch) grid points, which are randomly drawn from the state space, instead of a fixed grid with a large number of grid points used by conventional projection and value iterative methods. In small problems, we draw grid points from an exogenous solution domain, but in large problems, we produce grid points by stochastic simulation which allows us to focus on the ergodic set in which the solution 'lives', avoiding the cost of computing solutions in those areas that are never visited in equilibrium. Thus, our DL framework aims not only on convergence of decision and value functions along iterations but also on convergence of simulated series to the ergodic set.</p>
+</div>
+<div data-label="text" data-region-id="region-0031" data-self-ref="#/texts/35" data-source-page="2">
+<p>Third, we introduce the all-in-one (AiO) expectation operator for efficient approximation of integrals in Monte Carlo simulation. The objective functions, which we derive from economic models, have two types of expectation operators. One is with respect to next-period shocks (which appears naturally in stochastic models), and the other is with respect to the current state variables (which we created ourselves by drawing grid points randomly from the state space). Approximating these two nested expectation operators is costly, especially, in large-scale applications. The AiO method merges the two expectation operators into one, reducing the cost dramatically. It possesses a remarkable distributive property: a single composite Monte Carlo draw is used both for integration with respect to future shocks and for approximation of decision functions.</p>
+</div>
+<div data-label="text" data-region-id="region-0032" data-self-ref="#/texts/36" data-source-page="2">
+<p>The way we construct the AiO operator differs for the three objective functions considered. For the lifetime reward method, we draw randomly the initial condition, in addition to future shocks. For the Euler-equation method, we use two independent random draws (or two independent batches) for evaluating two terms of the squared residual - this method eliminates the correlation between the two terms and helps us pull the expectation operator out of the square. Finally, for the Bellman-equation method, we introduce a value-iterative scheme that combines a minimization of residuals in the Bellman equation with a maximization of the right side of the Bellman equation into a single weighted-sum objective function. We use the Fischer-Burmeister function for a smooth approximation of Kuhn-Tucker conditions.</p>
+</div>
+<div data-label="text" data-region-id="region-0033" data-self-ref="#/texts/37" data-source-page="2">
+<p>Our last important contribution is to implement the DL solution framework using the Google TensorFlow data platformthe same software that lead to ground-breaking applications in data science. Our implementation is versatile and portable to a variety of economic models and applications. 3</p>
+</div>
+<div data-label="text" data-region-id="region-0034" data-self-ref="#/texts/38" data-source-page="2">
+<p>The solution framework we introduce is not tied to neural networks but can be used with any approximating family (e.g., polynomials, splines, radial basis functions). However, neural networks possess several features that make them an excellent match for high-dimensional applications; namely, they are linearly scalable, robust to ill-conditioning, capable of model reduction and well suited for approximating highly nonlinear environments including kinks, discontinuities, discrete choices, switching.</p>
+</div>
+<div data-label="text" data-region-id="region-0035" data-self-ref="#/texts/39" data-source-page="2">
+<p>We first illustrate our DL solution framework by using a simple one-agent consumption savings problem with a borrowing constraint. We implement three versions of the deep learning method based on lifetime reward, Bellman equation and Euler equation -they produce very similar solutions. Approximation errors do not exceed a fraction of a percentage point - an impressive accuracy level for a model with a kink in decision rules! Moreover, the computational expense increases practically linearly with the dimensionality of the state space - another outstanding feature of our DL method based on stochastic gradient and the AiO integration operator.</p>
+</div>
+<div data-label="text" data-region-id="region-0036" data-self-ref="#/texts/40" data-source-page="2">
+<p>We then solve Krusell and Smith (1998) model with heterogenous agents. Our solution procedure is conceptually straightforward - we simulate a panel of heterogenous agents, and we feed a distribution of labor productivity and wealth into the constructed objective functions for training. But there are two challenges: First, the decision function of each agent depends on the state variables of all agents, which makes the problem high dimensional. Second, the agent's state variables appear twice in the decision function (as agent's own state variables and as a part of the distribution), which leads to perfect collinearity. Fortunately, a neural network can deal with these challenges: First, it performs model reduction by extracting and condensing information from high-dimensional distributions into a smaller set of features of the hidden layers. Second, it learns to ignore the presence of redundant collinear variables. We again implement deep learning methods based on lifetime reward, Bellman equation and Euler equation and show that they produce very similar solutions. Our solution method is tractable in models with at least 10 0 0 agents (2,001 state variables) on a serial desktop computer!</p>
+</div>
+<div data-label="footnote" data-region-id="region-0037" data-self-ref="#/texts/41" data-source-page="2">
+<a href="https://notes.quantecon.org/submission/5ddb3c926bad3800109084bf"><p>3 Jupyter notebooks illustrating the method are available from open-source QuantEcon.org site https://notes.quantecon.org/submission/ 5ddb3c926bad3800109084bf .</p></a>
+</div>
+<div data-label="page_footer" data-region-id="region-0038" data-self-ref="#/texts/42" data-source-page="2">
+<p>77</p>
+</div>
+</div>
+</body></html>

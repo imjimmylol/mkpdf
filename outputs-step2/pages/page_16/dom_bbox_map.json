@@ -1,0 +1,151 @@
+{
+  "dom_header": {
+    "source_page": 16,
+    "page_slug": "page_16",
+    "html_path": "outputs-step2/pages/page_16/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_16/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 11
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0273",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0274",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0275",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "Fig. 7. Comparison of integration, SGD and activation methods.",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0276",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "In the first panel, we show the results in which we vary an integration method, namely, we consider ",
+      "bbox": [
+        220.0,
+        233.375,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0277",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "In Fig. 8 , we illustrate the scalability of the Euler-equation method. TensorFlow has a possibility",
+      "bbox": [
+        220.0,
+        454.125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0278",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "Fig. 8. Effects of the batch size on the accuracy and speed.",
+      "bbox": [
+        220.0,
+        546.90625,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0279",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "In the left panel, we see that the training time changes roughly linearly with the batch size. In th",
+      "bbox": [
+        220.0,
+        635.09375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0280",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "4.8. Multicollinearity, ill-conditioning and model reduction",
+      "bbox": [
+        220.0,
+        731.78125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0281",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "We consider a version of the consumption-saving problem with multiple shocks,",
+      "bbox": [
+        220.0,
+        790.078125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0282",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        831.671875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0283",
+      "source_page": 16,
+      "tag": "div",
+      "text_preview": "91",
+      "bbox": [
+        220.0,
+        873.265625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

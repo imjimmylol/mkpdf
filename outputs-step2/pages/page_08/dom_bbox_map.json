@@ -1,0 +1,127 @@
+{
+  "dom_header": {
+    "source_page": 8,
+    "page_slug": "page_08",
+    "html_path": "outputs-step2/pages/page_08/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_08/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 9
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0150",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0151",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0152",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "θ converges to a value that minimizes an objective function /Xi1 n (θ ) on simulated data { ω i } n ",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0153",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "Neural network: effective approximation on unstructured data. We approximate the decision rules and ",
+      "bbox": [
+        220.0,
+        314.75,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0154",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "A neural network is a collection of connected nodes - artificial neurons. Each neuron receives a sig",
+      "bbox": [
+        220.0,
+        458.71875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0155",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "Fig. 1. A neural network with one hidden layer.",
+      "bbox": [
+        220.0,
+        551.5,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0156",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "The input layer consists of a constant term + 1 and input features ( x 1 , x 2 , x 3 ) which corresp",
+      "bbox": [
+        220.0,
+        639.6875,
+        1000.0,
+        281.53125
+      ]
+    },
+    {
+      "anchor_id": "region-0157",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "7 This is a convenient choice since it allows for an easy construction of the derivative function σ ",
+      "bbox": [
+        220.0,
+        937.21875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0158",
+      "source_page": 8,
+      "tag": "div",
+      "text_preview": "83",
+      "bbox": [
+        220.0,
+        1004.40625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

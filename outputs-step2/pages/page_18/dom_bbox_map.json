@@ -1,0 +1,283 @@
+{
+  "dom_header": {
+    "source_page": 18,
+    "page_slug": "page_18",
+    "html_path": "outputs-step2/pages/page_18/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_18/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1496
+    },
+    "bbox_count": 22
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0301",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0302",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0303",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0304",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        170.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0305",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "where c i t , w i t , y i t , R t , W t and k i t + 1 = w i t -c i t are consumption, cash-on-hand, ",
+      "bbox": [
+        220.0,
+        212.375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0306",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "The production side of the economy is described by a Cobb-Douglas production function z t k α t , wh",
+      "bbox": [
+        220.0,
+        279.5625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0307",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        346.75,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0308",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        372.34375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0309",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Initial condition z 0 is given. The equilibrium prices are",
+      "bbox": [
+        220.0,
+        413.9375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0310",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "where k t = ∑ ℓ i = 1 k i t is aggregate capital, and d ∈ ( 0 , 1 ] is the depreciation rate. Note t",
+      "bbox": [
+        220.0,
+        455.53125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0311",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        548.3125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0312",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Our analysis of Krusell and Smith (1998) model parallels that of the consumption-saving problem of S",
+      "bbox": [
+        220.0,
+        589.90625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0313",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "State space. The state space consists of the state variables of all agents { y i t , w i t } ℓ i = 1",
+      "bbox": [
+        220.0,
+        657.09375,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0314",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Parameterization. Like in the consumption-saving problem, we parametrize the consumption to wealth r",
+      "bbox": [
+        220.0,
+        775.46875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0315",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        842.65625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0316",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "A sigmoid transformation of ϕ ( ·; θ) ensures that c i t w i t is in the interval [ 0 , 1 ] ; the ex",
+      "bbox": [
+        220.0,
+        884.25,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0317",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "where η( ·; ϑ ) is a neural network, D t ≡ { y i t , w i t } ℓ i = 1 is the distribution, θ ≡ ( ζ 0 ",
+      "bbox": [
+        220.0,
+        1002.625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0318",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Simulation. Our implementation of the deep learning solution method follows Algorithm 1 we used for ",
+      "bbox": [
+        220.0,
+        1044.21875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0319",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "Compute c i t w i t = ϕ ( y i t , w i t , D t , z t ; θ ) and k i t + 1 = w t -c t for each agent i ",
+      "bbox": [
+        220.0,
+        1162.59375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0320",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "8 Since the true decision and value functions are invariant to any permutation of { y i t , w i t } ",
+      "bbox": [
+        220.0,
+        1229.78125,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0321",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "9 We do not use a recursive representation for Krusell and Smith (1998) model but keep the time subs",
+      "bbox": [
+        220.0,
+        1348.15625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0322",
+      "source_page": 18,
+      "tag": "div",
+      "text_preview": "93",
+      "bbox": [
+        220.0,
+        1415.34375,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

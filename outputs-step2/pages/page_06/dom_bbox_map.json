@@ -1,0 +1,427 @@
+{
+  "dom_header": {
+    "source_page": 6,
+    "page_slug": "page_06",
+    "html_path": "outputs-step2/pages/page_06/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_06/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 2078
+    },
+    "bbox_count": 34
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0097",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0098",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0099",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "where ( v 1 , . . . , v J ) is a vector of weights on J optimality conditions.",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0100",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Our goal is to construct a decision rule ϕ ( ·; θ) that solves max θ ∈ /Theta1 /Xi1(θ ) .",
+      "bbox": [
+        220.0,
+        186.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0101",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "(",
+      "bbox": [
+        220.0,
+        228.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0102",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Again, the objective function (10) has also two expectation operators, one with respect to the shock",
+      "bbox": [
+        220.0,
+        269.96875,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0103",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "m",
+      "bbox": [
+        220.0,
+        490.71875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0104",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": ",",
+      "bbox": [
+        220.0,
+        532.3125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0105",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "s",
+      "bbox": [
+        220.0,
+        573.90625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0106",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": ")",
+      "bbox": [
+        220.0,
+        615.5,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0107",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "ϵ",
+      "bbox": [
+        220.0,
+        657.09375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0108",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "j",
+      "bbox": [
+        220.0,
+        698.6875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0109",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "̸",
+      "bbox": [
+        220.0,
+        740.28125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0110",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "ms",
+      "bbox": [
+        220.0,
+        781.875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0111",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "ϵ",
+      "bbox": [
+        220.0,
+        823.46875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0112",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "j",
+      "bbox": [
+        220.0,
+        865.0625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0113",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        906.65625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0114",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "With this approach, we are able to write the Euler-residual function (10) as an expectation function",
+      "bbox": [
+        220.0,
+        948.25,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0115",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Definition 2.7 (Euler-residual minimization with all-in-one expectation operator) . Parametrize a de",
+      "bbox": [
+        220.0,
+        1015.4375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0116",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "where ( v 1 , . . . , v J ) is a vector of weights on J optimality conditions.",
+      "bbox": [
+        220.0,
+        1108.21875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0117",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1149.8125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0118",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "The method based on the AiO expectation operator is our main method. However, we also develop and te",
+      "bbox": [
+        220.0,
+        1191.40625,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0119",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Objective 3: Bellman-residual minimization",
+      "bbox": [
+        220.0,
+        1335.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0120",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Our last DL method constructs the decision rule to satisfy the Bellman equation.",
+      "bbox": [
+        220.0,
+        1376.96875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0121",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Definition 2.8 (Bellman equation) . Value function V : R n m × R n s → R associated with the problem",
+      "bbox": [
+        220.0,
+        1418.5625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0122",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "subject to constraints (1) , (2) and (3) expressed in a recursive form m ′ = M ( m , ϵ) , s ′ = S ( ",
+      "bbox": [
+        220.0,
+        1460.15625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0123",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1501.75,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0124",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Under the standard assumptions about r , M , S and X , the solution to (13) exists and is unique. Si",
+      "bbox": [
+        220.0,
+        1543.34375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0125",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "In the case of Bellman operator, we face an additional element - a nontrivial 'max ' operator appear",
+      "bbox": [
+        220.0,
+        1636.125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0126",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1677.71875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0127",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "There are three approaches in the literature for constructing a solution to the maximum operator, na",
+      "bbox": [
+        220.0,
+        1719.3125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0128",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1786.5,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0129",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "FOCs and direct optimization are used in conventional value function iteration, e.g., Aruoba et al. ",
+      "bbox": [
+        220.0,
+        1828.09375,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0130",
+      "source_page": 6,
+      "tag": "div",
+      "text_preview": "81",
+      "bbox": [
+        220.0,
+        1997.65625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

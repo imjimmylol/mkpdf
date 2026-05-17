@@ -1,0 +1,247 @@
+{
+  "dom_header": {
+    "source_page": 7,
+    "page_slug": "page_07",
+    "html_path": "outputs-step2/pages/page_07/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_07/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1424
+    },
+    "bbox_count": 19
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0131",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0132",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0133",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Definition 2.9 (Bellman-residual minimization) . Parametrize a value function V ( ·; θ 1 ) and decis",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0134",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        237.96875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0135",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "where v > 0 is a vector of exogenous relative weights of equations in the two objectives.",
+      "bbox": [
+        220.0,
+        279.5625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0136",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Similar to the previous methods, the objective function for the Bellman equation has two expectation",
+      "bbox": [
+        220.0,
+        321.15625,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0137",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Definition 2.10 (Bellman-residual minimization with all-in-one expectation operator) . . Select valu",
+      "bbox": [
+        220.0,
+        413.9375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0138",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        506.71875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0139",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Like for the Euler equation, our main Bellman-equation method is the one based on AiO expectation op",
+      "bbox": [
+        220.0,
+        548.3125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0140",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "3. Deep learning solution method",
+      "bbox": [
+        220.0,
+        645.0,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0141",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "In each of the considered cases (lifetime reward, Euler and Bellman equations), we represent an econ",
+      "bbox": [
+        220.0,
+        703.296875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0142",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        770.484375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0143",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "where ω ≡ ( m , s , ϵ) includes exogenous state variables m , endogenous state variables s and futur",
+      "bbox": [
+        220.0,
+        812.078125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0144",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "In computational economics, a common approach to solving dynamic economic models is to use a fixed g",
+      "bbox": [
+        220.0,
+        904.859375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0145",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1100.015625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0146",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "We construct a solution θ by training the machine to minimize the empirical risk /Xi1 n (θ ) on the ",
+      "bbox": [
+        220.0,
+        1141.609375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0147",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "5 There is also a method of reformulating state space in terms of the future endogenous state variab",
+      "bbox": [
+        220.0,
+        1234.390625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0148",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "6 In the earlier version of the paper, we study a version of the method that relies on direct search",
+      "bbox": [
+        220.0,
+        1301.578125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0149",
+      "source_page": 7,
+      "tag": "div",
+      "text_preview": "82",
+      "bbox": [
+        220.0,
+        1343.171875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

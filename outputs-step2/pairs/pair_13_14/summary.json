@@ -1,0 +1,27 @@
+{
+  "pair": [
+    13,
+    14
+  ],
+  "pair_slug": "pair_13_14",
+  "pages": [
+    {
+      "source_page": 13,
+      "page_slug": "page_13",
+      "rendered_html_path": "outputs-step2/pages/page_13/rendered.html",
+      "rendered_screenshot_path": "outputs-step2/pages/page_13/rendered_screenshot.png",
+      "source_pdf_path": "outputs-step2/pages/page_13/source_pdf.png",
+      "dom_bbox_map_path": "outputs-step2/pages/page_13/dom_bbox_map.json",
+      "region_count": 14
+    },
+    {
+      "source_page": 14,
+      "page_slug": "page_14",
+      "rendered_html_path": "outputs-step2/pages/page_14/rendered.html",
+      "rendered_screenshot_path": "outputs-step2/pages/page_14/rendered_screenshot.png",
+      "source_pdf_path": "outputs-step2/pages/page_14/source_pdf.png",
+      "dom_bbox_map_path": "outputs-step2/pages/page_14/dom_bbox_map.json",
+      "region_count": 14
+    }
+  ]
+}

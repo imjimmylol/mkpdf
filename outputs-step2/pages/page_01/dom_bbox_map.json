@@ -1,0 +1,331 @@
+{
+  "dom_header": {
+    "source_page": 1,
+    "page_slug": "page_01",
+    "html_path": "outputs-step2/pages/page_01/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_01/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1807
+    },
+    "bbox_count": 26
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0000",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0001",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0002",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Contents lists available at ScienceDirect",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0003",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics",
+      "bbox": [
+        220.0,
+        190.6875,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0004",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "journal homepage: www.elsevier.com/locate/jmoneco",
+      "bbox": [
+        220.0,
+        248.984375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0005",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Deep learning for solving dynamic economic models.",
+      "bbox": [
+        220.0,
+        294.484375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0006",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Lilia Maliar a , Serguei Maliar b , ∗ , Pablo Winant c",
+      "bbox": [
+        220.0,
+        352.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0007",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "a The Graduate Center, City University of New York, CEPR, and Hoover Institution, Stanford Universit",
+      "bbox": [
+        220.0,
+        394.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0008",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "b Santa Clara University",
+      "bbox": [
+        220.0,
+        435.96875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0009",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "c ESCP Business School and CREST/Ecole Polytechnique",
+      "bbox": [
+        220.0,
+        477.5625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0010",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "a r t i c l e i n f o",
+      "bbox": [
+        220.0,
+        523.0625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0011",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Article history: Received 11 March 2020 Revised 16 July 2021 Accepted 19 July 2021 Available online ",
+      "bbox": [
+        220.0,
+        581.359375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0012",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "JEL classification: C61 C63 C65 C68 C88 E32 E37",
+      "bbox": [
+        220.0,
+        622.953125,
+        1000.0,
+        316.75
+      ]
+    },
+    {
+      "anchor_id": "region-0013",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Keywords: Artificial intelligence Machine learning Deep learning Neural network Stochastic gradient ",
+      "bbox": [
+        220.0,
+        955.703125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0014",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Value functio",
+      "bbox": [
+        220.0,
+        1022.890625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0015",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "1. Introduction",
+      "bbox": [
+        220.0,
+        1068.390625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0016",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Artificial intelligence (AI) has remarkable applications, such as recognition of images and speech, ",
+      "bbox": [
+        220.0,
+        1126.6875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0017",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "∗",
+      "bbox": [
+        220.0,
+        1245.0625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0018",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "Corresponding author. E-mail address: maliars@stanford.edu (S. Maliar).",
+      "bbox": [
+        220.0,
+        1286.65625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0019",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "a b s t r a c t",
+      "bbox": [
+        220.0,
+        1332.15625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0020",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "We introduce a unified deep learning method that solves dynamic economic models by casting them into",
+      "bbox": [
+        220.0,
+        1390.453125,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0021",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "© 2021 Elsevier B.V. All rights reserved.",
+      "bbox": [
+        220.0,
+        1560.015625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0022",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "",
+      "bbox": [
+        220.0,
+        1601.609375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0023",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "",
+      "bbox": [
+        220.0,
+        1643.203125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0024",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "https://doi.org/10.1016/j.jmoneco.2021.07.004",
+      "bbox": [
+        220.0,
+        1684.796875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0025",
+      "source_page": 1,
+      "tag": "div",
+      "text_preview": "0304-3932/© 2021 Elsevier B.V. All rights reserved.",
+      "bbox": [
+        220.0,
+        1726.390625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

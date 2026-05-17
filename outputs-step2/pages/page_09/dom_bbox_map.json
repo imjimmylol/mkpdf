@@ -1,0 +1,163 @@
+{
+  "dom_header": {
+    "source_page": 9,
+    "page_slug": "page_09",
+    "html_path": "outputs-step2/pages/page_09/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_09/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1235
+    },
+    "bbox_count": 12
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0159",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0160",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0161",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Generating data: solving the model where the solution lives. Judd et al. (2011) argue that stochasti",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0162",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Fig. 2. Ergodic set of a neoclassical growth model.",
+      "bbox": [
+        220.0,
+        263.5625,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0163",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "The ergodic set takes the form of an oval and most of the rectangular area that sits outside of the ",
+      "bbox": [
+        220.0,
+        351.75,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0164",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "For example, for dimensions three, four, five, ten and thirty, this ratio is 0.52, 0.31, 0.16, 3 · 1",
+      "bbox": [
+        220.0,
+        495.71875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0165",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        588.5,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0166",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "AiO integration operator: we need just two integration nodes. The AiO operator is a critical techniq",
+      "bbox": [
+        220.0,
+        630.09375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0167",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Independently of the number of shocks in the economy, we need only two random draws (or two batches)",
+      "bbox": [
+        220.0,
+        825.25,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0168",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        943.625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0169",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "Stochastic gradient descent method for training: we need just one grid point. Training of multilayer",
+      "bbox": [
+        220.0,
+        985.21875,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0170",
+      "source_page": 9,
+      "tag": "div",
+      "text_preview": "84",
+      "bbox": [
+        220.0,
+        1154.78125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

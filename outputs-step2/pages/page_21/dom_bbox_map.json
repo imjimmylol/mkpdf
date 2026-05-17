@@ -1,0 +1,163 @@
+{
+  "dom_header": {
+    "source_page": 21,
+    "page_slug": "page_21",
+    "html_path": "outputs-step2/pages/page_21/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_21/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1286
+    },
+    "bbox_count": 12
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0354",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0355",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0356",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0357",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "To initialize the algorithm, we pre-train the value function during the first 10 0,0 0 0 iterations ",
+      "bbox": [
+        220.0,
+        186.78125,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0358",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "5.6. Comparison of the solutions produced by three methods",
+      "bbox": [
+        220.0,
+        309.0625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0359",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "To make a more conclusive judgement, in Fig. 13 , we compare the decision rules produced by the thre",
+      "bbox": [
+        220.0,
+        367.359375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0360",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "Fig. 13. Comparison of methods in Krusell and Smith (1998) model.",
+      "bbox": [
+        220.0,
+        408.953125,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0361",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "In the first panel, we plot the decision rules of one agent for the thee methods by assuming that al",
+      "bbox": [
+        220.0,
+        497.140625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0362",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "5.7. Euler-equation method: The properties of the solution",
+      "bbox": [
+        220.0,
+        670.609375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0363",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "In Table 1 , we present some statistics for the model with different number of agents produced by th",
+      "bbox": [
+        220.0,
+        728.90625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0364",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "Table 1 Selected statistics for Krusell and Smith (1998) model. ℓ std ( y ) corr ( y , c ) Gini ( k ",
+      "bbox": [
+        220.0,
+        796.09375,
+        1000.0,
+        393.34375
+      ]
+    },
+    {
+      "anchor_id": "region-0365",
+      "source_page": 21,
+      "tag": "div",
+      "text_preview": "96",
+      "bbox": [
+        220.0,
+        1205.4375,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "dom_header": {
+    "source_page": 17,
+    "page_slug": "page_17",
+    "html_path": "outputs-step2/pages/page_17/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_17/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1350
+    },
+    "bbox_count": 17
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0284",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0285",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0286",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0287",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        170.78125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0288",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        196.375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0289",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "where { y t , p t , ϱ t , χ t } ≡ z t is a v ect or of exog enous state variables, which includes a ",
+      "bbox": [
+        220.0,
+        237.96875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0290",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "where ∣ ∣ ρ j ∣ ∣ < 1 and σ j > 0 . We parameterize the model by u ( c ) = c 1 -γ -1 1 -γ with a ris",
+      "bbox": [
+        220.0,
+        330.75,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0291",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "The lifetime-reward objective function (27) is built on the AiO operator and it is directly suitable",
+      "bbox": [
+        220.0,
+        397.9375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0292",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Fig. 9. Multicollinearity and model reduction in the multishock model.",
+      "bbox": [
+        220.0,
+        490.71875,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0293",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Three cases are considered in the figure. The main case is the multi-shock model denoted by 'multidi",
+      "bbox": [
+        220.0,
+        578.90625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0294",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "There are two main results to learn from this experiment: First, neural-network approximations do no",
+      "bbox": [
+        220.0,
+        748.46875,
+        1000.0,
+        204.75
+      ]
+    },
+    {
+      "anchor_id": "region-0295",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "5. Numerical analysis of Krusell and Smith's (1998) model",
+      "bbox": [
+        220.0,
+        973.125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0296",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "We now use our deep learning method to solve Krusell and Smith (1998) model. We formulate the model ",
+      "bbox": [
+        220.0,
+        1031.421875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0297",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "5.1. Krusell and Smith (1998) model",
+      "bbox": [
+        220.0,
+        1102.515625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0298",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "The economy consists of a set of heterogeneous agents i = 1 , . . . , ℓ that are identical in fundam",
+      "bbox": [
+        220.0,
+        1160.8125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0299",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        1228.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0300",
+      "source_page": 17,
+      "tag": "div",
+      "text_preview": "92",
+      "bbox": [
+        220.0,
+        1269.59375,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

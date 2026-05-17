@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_03</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="3">
+<div data-label="page_header" data-region-id="region-0039" data-self-ref="#/texts/43" data-source-page="3">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0040" data-self-ref="#/texts/44" data-source-page="3">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="text" data-region-id="region-0041" data-self-ref="#/texts/45" data-source-page="3">
+<p>We next propose a cheaper deep learning method that replaces the actual state space composed of distributions with a reduced state space composed of some aggregate statistics such the moments of wealth distribution studied in Krusell and Smith (1998) . Implementing such a method requires no modifications: as before, we simulate a panel of heterogeneous agents, but we now feed in moments instead of distributions. In contrast, the method proposed by Krusell and Smith (1998) is far more complicated: they alternate between constructing individual and aggregate decision rules. Also, they rely on a regression of current moments on past moments, which is unnecessary in our case. Having relatively few moments, like 10 or 20, implies lower computational expense and allows us to increase the number of agents (at least) to 10,0 0 0 agents without a visible accuracy loss, so this cheaper method is a useful alternative to our baseline method.</p>
+</div>
+<div data-label="text" data-region-id="region-0042" data-self-ref="#/texts/46" data-source-page="3">
+<p>We finally compare the solutions constructed with actual state space to those produced with a reduced state space. We find that the solution constructed by using the first moment of wealth distribution as in Krusell and Smith (1998) is somewhat shifted up relatively to our baseline solution. We tried to add second and third moments, but it did not help remove the shift. We then constructed a solution with the actual state space but using only 4 neurons which is parallel to 4 state variables in Krusell and Smith (1998) method with one moment. We find that the 4-neuron solution is also shifted up near the kink area but the shift reduces for larger wealth levels. Furthermore, we find that having more neurons helps one get closer to the reference solution, unlike having more moments. These findings suggest that moments are not the best reduced representation of the actual state space which is not surprising given that the moments are selected by a guess, while neural networks are designed to search for the best possible reduced representation.</p>
+</div>
+<div data-label="text" data-region-id="region-0043" data-self-ref="#/texts/47" data-source-page="3">
+<p>Our solution method is related to supervised-learning (because we fit the decision and value functions to the data which are artificial in our analysis), to unsupervised learning (because the decision and value functions are not explicitly labeled) and reinforcement learning (because we attempt to achieve the convergence of simulated series to the ergodic set, in addition to convergence of the neural network coefficients). We are not the only paper that uses machine learning tools for analyzing dynamic economic models. There are numerous methods that solve dynamic economic models on their ergodic sets approximated via stochastic simulation, such as the indirect inference procedure of Smith (1987) for maximizing the lifetime reward, a parameterized expectation algorithm (PEA) by Den Haan and Marcet (1990) for minimizing the Euler equation residuals and a value iterative method of Maliar and Maliar (2005) for minimizing the Bellman equation residuals. There are also methods that use unsupervised learning in order to aim to refine simulated points and determine the irregularly-shaped ergodic sets. In particular, Judd et al. (2011) uses clustering of simulated points, Maliar and Maliar (2015) combine simulated points in epsilon-distinguishable sets, Renner and Scheidegger (2018) and Scheidegger and Bilionis (2019) use Gaussian process machine learning to identify feasible sets. In turn, Jirniy and Lepetyuk (2011) show an early remarkable application of reinforcement learning for solving Krusell and Smith (1998) model.</p>
+</div>
+<div data-label="text" data-region-id="region-0044" data-self-ref="#/texts/48" data-source-page="3">
+<p>Furthermore, machine learning methods for model reduction and dealing with ill-conditioning are analyzed in Judd et al. (2011) including a principle component regression, a truncated SVD method, Tykhonov regularization and regularized least absolute deviation methods. The other methods that use model reduction for solving heterogeneous-agent models are Ahn et al. (2018) ; Reiter (2010) ; Winberry (2018) and Bayer and Luetticke (2020) .</p>
+</div>
+<div data-label="text" data-region-id="region-0045" data-self-ref="#/texts/49" data-source-page="3">
+<p>Finally, early applications of neural networks date back to Duffy and McNelis (2001) and more recent applications include Duarte (2018) ; Fernández-Villaverde et al. (2019) ; Lepetyuk et al. (2020) ; Villa and Valaitis (2019) ,. These papers use neural networks for interpolation instead of polynomial functions. To the best of our knowledge, we are the first to cast an entire economic model into the state-of-the-art DL framework and to construct a solution on simulated points by using stochastic gradient descent method. There is also a paper by Azinovic et al. (2020) that uses a related Euler-equation method to solve a large-scale OLG problem. Like us, that paper uses deep neural network and random grid points but focuses only on the method that minimizes the Euler equation residuals while we offer a unified approach that applies also to the lifetime reward and Bellman operator. Another difference is that Azinovic et al. (2020) assume a finite number of shocks in which case integration is exact, while we show how to integrate stochastic processes with continuous transition density by using the AiO operator - a key contribution of our analysis. Finally, the techniques we developed in the present paper are used in Maliar and Maliar (2020) for constructing a classification deep learning method for modeling non-convex labor choices, and</p>
+</div>
+<div data-label="text" data-region-id="region-0046" data-self-ref="#/texts/50" data-source-page="3">
+<p>in Gorodnichenko et al. (2020) for solving a version of heterogeneous-agent new Keynesian model with uncertainty shocks.</p>
+</div>
+<div data-label="text" data-region-id="region-0047" data-self-ref="#/texts/51" data-source-page="3">
+<p>The rest of the paper is organized as follows: Section 2 shows how to cast three main objects of economic dynamics (lifetime reward, Bellman equation and Euler equations) into expectation functions. Section 3 presents a deep learning solution method and provides a quick overview of its key ingredients (multilayer neural networks, stochastic gradient training method, etc.). Sections 4 and 5 analyze the one-agent consumption-saving model and Krusell and Smith (1998) heterogeneous-agent model, respectively. Finally, Section 7 concludes.</p>
+</div>
+<div data-label="section_header" data-region-id="region-0048" data-self-ref="#/texts/52" data-source-page="3">
+<h2>2. Casting dynamic economic models into DL expectation functions</h2>
+</div>
+<div data-label="text" data-region-id="region-0049" data-self-ref="#/texts/53" data-source-page="3">
+<p>Deep learning platforms such as TensorFlow or PyTorch provide efficient ways of numerically approximating expectation functions with large numbers of parameters. In this section, we show how to cast dynamic economic models into the form of expectation functions that can be suitable for deep learning platforms. Specifically, we show how to reformulate as expectation functions three key objects of economic dynamics: lifetime reward, Euler equation and Bellman equation.</p>
+</div>
+<div data-label="page_footer" data-region-id="region-0050" data-self-ref="#/texts/54" data-source-page="3">
+<p>78</p>
+</div>
+</div>
+</body></html>

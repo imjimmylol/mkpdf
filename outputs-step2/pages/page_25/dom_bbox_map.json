@@ -1,0 +1,199 @@
+{
+  "dom_header": {
+    "source_page": 25,
+    "page_slug": "page_25",
+    "html_path": "outputs-step2/pages/page_25/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_25/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1662
+    },
+    "bbox_count": 15
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0401",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0402",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0403",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Accuracy tests in economic dynamics are indirect. In a canonical supervised learning regression, we ",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0404",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "In the context of economic dynamics, a parallel direct accuracy test would require us to compare app",
+      "bbox": [
+        220.0,
+        263.5625,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0405",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Following the economic literature, we concentrate on indirect approaches to the accuracy evaluation.",
+      "bbox": [
+        220.0,
+        407.53125,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0406",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "7. Concluding comments",
+      "bbox": [
+        220.0,
+        555.40625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0407",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "In the paper, we propose an AI technology that is tractable in large scale applications - a deep lea",
+      "bbox": [
+        220.0,
+        613.703125,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0408",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Our solution framework was designed to take advantage of existing DL technology. 'Is this the best p",
+      "bbox": [
+        220.0,
+        808.859375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0409",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "First, neural networks are powerful universal approximators, but their training is expensive and the",
+      "bbox": [
+        220.0,
+        876.046875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0410",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Second, Monte Carlo simulation lying at the basis of DL framework has a low square-root rate of conv",
+      "bbox": [
+        220.0,
+        968.828125,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0411",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Third, instead of stochastic optimization, we can use other numerical solvers, e.g., fixed-point ite",
+      "bbox": [
+        220.0,
+        1087.203125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0412",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Finally, there are other AI-style methods that can be used for solving economic models, in particula",
+      "bbox": [
+        220.0,
+        1179.984375,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0413",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Acknowledgements",
+      "bbox": [
+        220.0,
+        1276.671875,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0414",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "Lilia Maliar and Serguei Maliar acknowledge financial support from the NSF grants SES-1949413 and SE",
+      "bbox": [
+        220.0,
+        1334.96875,
+        1000.0,
+        230.34375
+      ]
+    },
+    {
+      "anchor_id": "region-0415",
+      "source_page": 25,
+      "tag": "div",
+      "text_preview": "100",
+      "bbox": [
+        220.0,
+        1581.3125,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

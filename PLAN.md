@@ -59,46 +59,58 @@ PDF → Docling 初始轉換 → HTML (含 anchor markers + data-source-page 頁
 
 | 項目 | 決策 |
 |------|------|
-| **粒度** | 以原始 PDF 兩頁為一組，比對該兩頁對應的所有 HTML 內容 |
-| **理由** | 學術論文內容完整性極少跨越兩頁；單頁可能切斷跨頁元素，三頁以上資訊過多 |
+| **粒度** | Pair：以原始 PDF 兩頁為一組 judge 批次，採 overlap `(1,2), (2,3), (3,4), ...` |
+| **理由** | 學術論文跨頁元素（表格/段落）需在同一 judge prompt 看到兩頁；overlap 確保每個跨頁邊界都被覆蓋 |
+| **渲染** | Per-page 獨立渲染（非 pair 合併）。Judge 收 4 張圖：PDF p3 + PDF p4 + HTML p3 + HTML p4，做 pairwise 比對 |
+| **去重** | Page render 一份 source-of-truth：page 3 即使屬於 pair (2,3) 與 (3,4)，只渲染一次 |
 
-#### 關鍵設計：Page Origin Label
+#### 關鍵設計：Page Origin Label + Per-Page 渲染
 
-原始 PDF 的 2 頁內容轉成 HTML 後，渲染長度不固定（表格展開、圖片縮放等），因此：
-
-- **比對單位是「原始 PDF 頁碼」，不是「渲染後 HTML 的視覺頁面」**
-- 每個 HTML 元素帶有 `data-source-page` 屬性，標記它來自原始 PDF 第幾頁
-- 比對時，透過 Page Origin Map 收集 source page 3-4 的所有 HTML 元素，整段渲染截圖
-- Judge 收到的是：2 張原始 PDF 頁面截圖 vs 1 張（可能更長的）HTML 渲染截圖
+- **比對單位是「原始 PDF 頁碼」**：每個 HTML 元素帶 `data-source-page` 屬性，標記它來自原始 PDF 第幾頁
+- **渲染粒度是「page」**：對每個 source page 各自抽出 `.page[data-source-page="N"]` 節點、build 一份 single-page HTML、各自截圖
+- **bbox 座標系統是「該頁截圖」**：永遠以 (0, 0) 為左上角，下游 IoU 比對無需做 pair-local 轉換
+- **Pair 是 logical grouping**：靠 `pairs/pair_NN_MM/summary.json` 帶顯式 paths 指向對應 page artifact
 
 ```
-原始 PDF page 3-4 (固定 2 張圖)
-        ↕ 比對
-HTML 中 data-source-page="3" 和 "4" 的所有元素 (渲染後可能超過 2 頁長)
+原始 PDF page 3 + page 4 (2 張圖)
+        ↕ pairwise 比對
+HTML page 3 截圖 + HTML page 4 截圖 (2 張獨立圖)
 ```
 
 #### Playwright 截圖策略
 
-由於 HTML 對應內容可能比原始 2 頁更長，截圖時：
-- 不用固定視窗高度分頁，而是**按 `data-source-page` 分組，full-height 截圖**
-- 若截圖過長（例如超過 3000px），可切分為多張送入 judge，但標註它們屬於同一組
+每個 source page：
+- Build 一份 single-page HTML（只含該頁 `.page` 節點，head 完整保留）
+- 開 browser tab、`networkidle` + 200ms 後 full-height 截圖
+- 若超過 `MAX_SCREENSHOT_HEIGHT`（預設 3000px），截到上限並 warning；切段策略留給 Step 2-2
+- Browser instance 整批 reuse（不要每頁 launch 一次）
 
 ### 3.2 渲染與截圖
 
-**工具：Playwright (headless browser)**
+**工具：Playwright (headless browser) + PyMuPDF**
 
-每輪迭代，針對每個尚未 pass 的 page pair 執行：
-1. 從 Page Origin Map 取出該 page pair 對應的所有 HTML 元素
-2. 渲染這些元素並 full-height 截圖（長度不固定，由內容決定）
-3. 同步執行 JS 抽取該範圍內所有可見元素的 `getBoundingClientRect()`
-4. 建立 **座標 → DOM 映射表**：`{ element_id, anchor_id, source_page, bbox: [x, y, w, h] }`
+#### 三階段 orchestration
+
+1. **清空 + 列 unique pages**：`shutil.rmtree(OUT_DIR)`、從 pair list 收斂 unique source pages
+2. **Per-page render**（共用一個 browser instance）：對每個 unique source page
+   - 從 annotated.html 抽 `.page[data-source-page="N"]`
+   - build single-page HTML、save 到 `pages/page_NN/rendered.html`
+   - PyMuPDF render 原 PDF 對應頁 → `pages/page_NN/source_pdf.png`
+   - Playwright open + screenshot → `pages/page_NN/rendered_screenshot.png`
+   - JS 抽 `[data-region-id]` 的 `getBoundingClientRect()` → `pages/page_NN/dom_bbox_map.json`
+3. **Build pair summaries**：對每個 pair 組 `pairs/pair_NN_MM/summary.json`（純 reference 組裝，無 render）
+4. **Top-level index**：`all_pairs_summary.json`（pages + pairs 雙索引 + source paths）
+
+#### DOM 映射表結構（per page）
+
+每個 page 一份 `dom_bbox_map.json`，header 含 `source_page` / `viewport` / `page_pixel_size` / `bbox_count`，elements 含 `{ anchor_id, source_page, tag, text_preview, bbox: [x, y, w, h] }`。座標系統永遠 page-local。
 
 ### 3.3 Vision Judge
 
 | 項目 | 決策 |
 |------|------|
 | **模型** | Qwen2.5-VL (建議 72B，可依成本降至 7B) |
-| **輸入** | 原始 PDF 頁面圖片 (2 張) + 對應 HTML 渲染截圖 (1 張，長度不固定) |
+| **輸入** | 原始 PDF 頁面圖片 (2 張) + 對應 HTML 渲染截圖 (2 張，pairwise) + per-page bbox map (2 份) |
 | **輸出** | 分數 + 結構化錯誤描述 + bounding box 圖片標註 |
 | **判斷標準** | 中間路線 — 結構語義正確 + 關鍵視覺元素正確 |
 
@@ -285,9 +297,10 @@ class PipelineState(TypedDict):
     # DOM Mapping (per page pair, 每輪重建)
     dom_mapping: dict  # {anchor_id: {source_page, bbox, element_html}}
     
-    # 截圖
-    html_screenshots: dict  # {(source_page_start, source_page_end): image_bytes}
-    pdf_screenshots: dict   # {(source_page_start, source_page_end): [page_img_1, page_img_2]}
+    # 截圖（per-page，pair 為 reference 層）
+    html_screenshots: dict  # {source_page: image_bytes}
+    pdf_screenshots: dict   # {source_page: image_bytes}
+    dom_bbox_maps: dict     # {source_page: DOMBBoxMap}
     
     # 最終輸出
     final_html: str

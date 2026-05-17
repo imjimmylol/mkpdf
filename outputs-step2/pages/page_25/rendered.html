@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_25</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="25">
+<div data-label="page_header" data-region-id="region-0401" data-self-ref="#/texts/408" data-source-page="25">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0402" data-self-ref="#/texts/409" data-source-page="25">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="text" data-region-id="region-0403" data-self-ref="#/texts/410" data-source-page="25">
+<p>Accuracy tests in economic dynamics are indirect. In a canonical supervised learning regression, we assess the quality of approximation by looking at the difference between the true and predicted output out-of-sample. In a logistic regression (e.g., the problem of handwritten digits classification), the success can be also measured by the fraction of times the machine classifies the digits correctly, e.g., it recognizes the handwritten digits correctly in 80 percent of the cases.</p>
+</div>
+<div data-label="text" data-region-id="region-0404" data-self-ref="#/texts/411" data-source-page="25">
+<p>In the context of economic dynamics, a parallel direct accuracy test would require us to compare approximate and exact solutions. This is generally infeasible since the exact solutions are unknown. One way to deal with this complication is to construct a more accurate reference solution by using more flexible approximation functions, more precise solvers and more accurate numerical integration methods. However, such a reference solution may be infeasible or excessively costly; see Judd et al. (2017) for a discussion and examples of cheaper direct testing methods that rely on numerical construction of the error bounds.</p>
+</div>
+<div data-label="text" data-region-id="region-0405" data-self-ref="#/texts/412" data-source-page="25">
+<p>Following the economic literature, we concentrate on indirect approaches to the accuracy evaluation. Specifically, we will check certain properties that an accurate solution is known to satisfy, such as zero residuals in the Euler or Bellman equation. Indirect accuracy tests are simple to design and they can be implemented in an out-of-sample way which is characteristic for AI applications. Moreover, we can define indirect accuracy measures to reflect the economic significance of accuracy. For example, we can express approximation errors in percentage terms of consumption.</p>
+</div>
+<div data-label="section_header" data-region-id="region-0406" data-self-ref="#/texts/413" data-source-page="25">
+<h2>7. Concluding comments</h2>
+</div>
+<div data-label="text" data-region-id="region-0407" data-self-ref="#/texts/414" data-source-page="25">
+<p>In the paper, we propose an AI technology that is tractable in large scale applications - a deep learning method based on Monte Carlo simulation. Our analysis is technology driven: we do not aim to design AI approaches that would work best for a certain class of economic models but rather we adapt the economic models themselves to available AI technologies. The modern data-science tools are ubiquitous, well developed, free of errors and optimized - these may be sufficient to compensate for potential inefficiencies. We have shown the promise of the DL approach by solving the Krusell and Smith (1993) model with thousands of state variables without resorting to a simplifying assumption about the economy's state space - such analysis has been infeasible up to now. Consequently, it seems to be a promising direction to explore.</p>
+</div>
+<div data-label="text" data-region-id="region-0408" data-self-ref="#/texts/415" data-source-page="25">
+<p>Our solution framework was designed to take advantage of existing DL technology. 'Is this the best possible technology for solving dynamic economic models?' - the answer to this question is not clear.</p>
+</div>
+<div data-label="text" data-region-id="region-0409" data-self-ref="#/texts/416" data-source-page="25">
+<p>First, neural networks are powerful universal approximators, but their training is expensive and their convergence to the solutions is not guaranteed. It is actually an open question whether there is much value in using deep neural networks for approximating decision rules in economics which often can be well approximated by simple functions like polynomials and splines.</p>
+</div>
+<div data-label="text" data-region-id="region-0410" data-self-ref="#/texts/417" data-source-page="25">
+<p>Second, Monte Carlo simulation lying at the basis of DL framework has a low square-root rate of convergence. It is possible to improve on the Monte Carlo method by engineering sequences that deliver more accurate approximations to integrals (e.g., quadrature, monomials, quasi-random sequence, sparse grids, clusters, epsilon-distinguishable sets), as well as by applying variance-reduction techniques such as antithetic variates; see Maliar et al. (2014) for a review.</p>
+</div>
+<div data-label="text" data-region-id="region-0411" data-self-ref="#/texts/418" data-source-page="25">
+<p>Third, instead of stochastic optimization, we can use other numerical solvers, e.g., fixed-point iteration, conventional GD methods, Gauss-Jacobi, Gauss-Siedel and linear programming; see Judd (1998) . These techniques are commonly used in computational economics, and we expect them to be useful alternatives to our baseline SGD in some applications.</p>
+</div>
+<div data-label="text" data-region-id="region-0412" data-self-ref="#/texts/419" data-source-page="25">
+<p>Finally, there are other AI-style methods that can be used for solving economic models, in particular, unsupervised and reinforcement learning methods. These methods offer a possibility of online learning and additional powerful approximation techniques such as alternating of learning, exploration or exploitation - such techniques are absent in our static offline supervised learning framework.</p>
+</div>
+<div data-label="section_header" data-region-id="region-0413" data-self-ref="#/texts/420" data-source-page="25">
+<h2>Acknowledgements</h2>
+</div>
+<div data-label="text" data-region-id="region-0414" data-self-ref="#/texts/421" data-source-page="25">
+<p>Lilia Maliar and Serguei Maliar acknowledge financial support from the NSF grants SES-1949413 and SES-1949430, respectively. We are grateful to Marc Maliar for his help with writing the TensorFlow code for solving Krusell and Smith (1998) model. We thank the editor and an annonimous referee for many useful comments and suggestions. The paper also circulated under the title 'Will Artificial Intelligence Replace Computational Economists Any Time Soon?' We also received useful comments from participants of the 2018 Society for Computational Economics (CEF) Conference in Milan (invited session), 2018 Econometric Society Australasian Meeting (ESAM) in Auckland (invited talk), Oxford University, CEPREMAP, Banque de France, Panorisk Summer School, NYU Abhu Dabi, Paris Dauphine University, CREST (Ecole Polytechnique), Durham University, Santa Clara University, Rutgers University, PASC conference, Model comparison conference in Frankfurt, Complutense University of Madrid, Stanford University, Queens College, Stony Brook University, Columbia University, University College of London, Deutsche Bundesbank, the Graduate Center, CUNY.</p>
+</div>
+<div data-label="page_footer" data-region-id="region-0415" data-self-ref="#/texts/422" data-source-page="25">
+<p>100</p>
+</div>
+</div>
+</body></html>

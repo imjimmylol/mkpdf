@@ -1,0 +1,187 @@
+{
+  "dom_header": {
+    "source_page": 13,
+    "page_slug": "page_13",
+    "html_path": "outputs-step2/pages/page_13/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_13/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1200
+    },
+    "bbox_count": 14
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0234",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0235",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0236",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Fig. 3 displays the outcome of training of neural network on the objective function (27) (on the hor",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0237",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Fig. 3. Lifetime reward in the consumption-saving model.",
+      "bbox": [
+        220.0,
+        212.375,
+        1000.0,
+        72.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0238",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "In the first panel of the figure, we illustrate how the objective function - lifetime reward - chang",
+      "bbox": [
+        220.0,
+        300.5625,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0239",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "4.4. Euler-equation method with Kuhn-Tucker conditions",
+      "bbox": [
+        220.0,
+        474.03125,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0240",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "For our model with borrowing constraint, the Euler-residual (10) objective function is given by the ",
+      "bbox": [
+        220.0,
+        532.328125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0241",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        573.921875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0242",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "In Section 1.3, we constructed an AiO expectation operator that makes it possible to combine the two",
+      "bbox": [
+        220.0,
+        615.515625,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0243",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        733.890625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0244",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "where v h is an exogenous weight. Using the technique of two uncorrelated shocks (11) , we then arri",
+      "bbox": [
+        220.0,
+        775.484375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0245",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "Formula not decoded",
+      "bbox": [
+        220.0,
+        842.671875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0246",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "The objective function (30) is the one that we minimize by deep learning Algorithm 1. To construct t",
+      "bbox": [
+        220.0,
+        884.265625,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0247",
+      "source_page": 13,
+      "tag": "div",
+      "text_preview": "88",
+      "bbox": [
+        220.0,
+        977.046875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

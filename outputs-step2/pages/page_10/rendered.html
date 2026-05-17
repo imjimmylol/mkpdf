@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<title>page_10</title>
+<meta content="Docling HTML Serializer" name="generator"/>
+<style>
+    html {
+        background-color: #e1e1e1;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    img {
+        min-width: 500px;
+        max-width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border: 0px solid #fff;
+        width: 100%;
+    }
+    td {
+        vertical-align: top;
+    }
+    .page {
+        background-color: white;
+        margin-top:15px;
+        padding: 30px;
+        border: 1px solid black;
+        width:100%;
+        max-width:1000px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .page figure {
+        text-align: center;
+    }
+    .page img {
+        max-width: 900px;
+        min-width: auto;
+    }
+    .page table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    .page table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .page table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    .page table caption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    code {
+        background-color: rgb(228, 228, 228);
+        border: 1px solid darkgray;
+        padding: 10px;
+        display: inline-block;
+        font-family: monospace;
+        max-width:980px;
+        word-wrap: normal;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        /*overflow-wrap: break-word;*/
+    }
+    details.docling-meta {
+        margin: 0.5em 0;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    figure details.docling-meta {
+        text-align: left;
+    }
+    details.docling-meta > summary {
+        cursor: pointer;
+        color: #555;
+        font-style: italic;
+        padding: 2px 6px;
+    }
+    .docling-meta-field {
+        background-color: #f0f0f0;
+        border-left: 3px solid #ccc;
+        padding: 6px 10px;
+        margin: 4px 0 4px 1em;
+        border-radius: 3px;
+        text-align: left;
+    }
+    .docling-meta-field-label {
+        font-weight: bold;
+        color: #444;
+    }
+    .docling-meta-field[data-meta-classification] {
+        text-align: left;
+    }
+    pre.docling-meta-code {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin: 6px 0;
+        overflow-x: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85em;
+        line-height: 1.45;
+        white-space: pre;
+        tab-size: 4;
+    }
+    pre.docling-meta-code code {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        display: block;
+        white-space: pre;
+    }
+</style>
+<style>body { text-align: center; } .page { margin-left: auto; margin-right: auto; text-align: left; }</style>
+</head><body><div class="page" data-source-page="10">
+<div data-label="page_header" data-region-id="region-0171" data-self-ref="#/texts/175" data-source-page="10">
+<p>L. Maliar, S. Maliar and P. Winant</p>
+</div>
+<div data-label="page_header" data-region-id="region-0172" data-self-ref="#/texts/176" data-source-page="10">
+<p>Journal of Monetary Economics 122 (2021) 76-101</p>
+</div>
+<div data-label="formula" data-region-id="region-0173" data-self-ref="#/texts/177" data-source-page="10">
+<div class="formula-not-decoded">Formula not decoded</div>
+</div>
+<div data-label="text" data-region-id="region-0174" data-self-ref="#/texts/178" data-source-page="10">
+<p>The limiting case of n = 1 in (19) corresponds to a stochastic gradient descent (SGD) method that approximates the gradient of the integral with the gradient of the integrand evaluated in just one randomly selected point, i.e., ∇ /Xi1( θ k ) = ∇ θ E ω [ ξ( ω ; θ k ) ] ≈ ∇ θ ξ( ω i ; θ k ) . While stochastic gradient is very imprecise in each given step, it is an unbiased estimate of the true gradient and its cumulative average converges to the true gradient over K iterations 1 K ∑ K k = 1 ∇ θ ξ( ω k ; θ k ) → ∇ θ /Xi1(θ k ) , provided that the network parameters converge to their true values θ k → θ . Thus, an extreme version of our DL method requires just one random grid point for approximation (and just two random nodes for integration). There are other versions of the SGD method, in particular, we will be using a method called ADAM in our numerical analysis; see Supplement C for a review of SGD methods and their convergence properties.</p>
+</div>
+<div data-label="text" data-region-id="region-0175" data-self-ref="#/texts/179" data-source-page="10">
+<p>DL solution algorithm. We now combine the above numerical techniques into a DL solution algorithm.</p>
+</div>
+<div data-label="text" data-region-id="region-0176" data-self-ref="#/texts/180" data-source-page="10">
+<p>Algorithm 1 has multiple hyperparameters including the topology of neural network, the learning rate, the number of simulation points and integration nodes, and the training method. The algorithm may also include additional hyperparame-</p>
+</div>
+<div data-label="section_header" data-region-id="region-0177" data-self-ref="#/texts/181" data-source-page="10">
+<h2>Algorithm 1 DL algorithm for solving dynamic economic models.</h2>
+</div>
+<div data-label="text" data-region-id="region-0178" data-self-ref="#/texts/182" data-source-page="10">
+<p>Step 1. Initialize the algorithm:</p>
+</div>
+<div data-label="list" data-region-id="region-0179" data-self-ref="#/groups/4" data-source-page="10">
+<ul>
+<li>i). construct theoretical risk /Xi1(θ ) = E ω [ ξ( ω ; θ) ] (lifetime reward, Euler/Bellmanequations);</li>
+<li>iv). fix initial vector of the coefficients θ .</li>
+<li>ii). define empirical risk /Xi1 n (θ ) = 1 n ∑ n i = 1 ξ( ω i ; θ) ; iii). define a topology of neural network ϕ ( · , θ) ;</li>
+</ul>
+</div>
+<div data-label="text" data-region-id="region-0180" data-self-ref="#/texts/186" data-source-page="10">
+<p>Step 2. Train the machine, i.e., find θ that minimizes theempirical risk /Xi1 n (θ ) :</p>
+</div>
+<div data-label="list" data-region-id="region-0181" data-self-ref="#/groups/5" data-source-page="10">
+<ul>
+<li>i). simulate the model to produce data { ω i } n i = 1 by using the decision rule ϕ ( · , θ) ;</li>
+<li>ii). construct the gradient ∇ /Xi1 n (θ ) = 1 n ∑ n i = 1 ∇ ξ( ω i ; θ) ;</li>
+</ul>
+</div>
+<div data-label="text" data-region-id="region-0182" data-self-ref="#/texts/189" data-source-page="10">
+<p>Step 3. Assess the accuracy of constructed approximation ϕ ( · , θ) on a new sample.</p>
+</div>
+<div data-label="text" data-region-id="region-0183" data-self-ref="#/texts/190" data-source-page="10">
+<p>iii). update the coefficients ̂ θ = θ -λ k ∇ /Xi1 n (θ ) and go to step 2.i); End Step 2 if the convergence criterion ∥ ∥ ̂ θ -θ ∥ ∥ &lt; ε is satisfied.</p>
+</div>
+<div data-label="text" data-region-id="region-0184" data-self-ref="#/texts/191" data-source-page="10">
+<p>ters such as Tykhonov and Lasso regularization parameters for dealing with overfitting and ill-conditioning; see Judd et al. (2011) for a discussion of numerical stability of stochastic simulation methods. Finally, objective function (17) has its own hyperparameters, namely, the relative weights of different model equations. To select the hyperparameters, we use the usual validation procedure of assessing the algorithm performance under different hyperparameter combinations and by selecting those that dominate others in accuracy and speed.</p>
+</div>
+<div data-label="text" data-region-id="region-0185" data-self-ref="#/texts/192" data-source-page="10">
+<p>Finally, to implement the DL solution method, we use the Python programming language and Google TensorFlow data platform. Such a platform represents operations on a computational graph, which is automatically optimized. The elements of the graphs, tensors , are multidimensional arrays manipulated by efficient vectorized symbolic engines. In particular, gradient computations are performed using automatic differentiation in a numerically stable way, without any user input. Moreover, the graph operations are massively parallelizable on multiple CPU and GPU cores. This is a particularly useful property for our Monte Carlo simulation, in which we evaluate the same function with many draws of shocks for computing conditional expectation functions.</p>
+</div>
+<div data-label="text" data-region-id="region-0186" data-self-ref="#/texts/193" data-source-page="10">
+<p>How our deep learning method differs from the conventional projection method. To appreciate the advantages of our DL algorithm, let us recall a canonical projection method of Judd (1992) . That method approximates decision rules ϕ( ·; θ) ≈ ϕ with a tensor product of Chebyshev polynomial basis functions and constructs a solution on a fixed tensor-product grid of zeros of Chebychev polynomials. The expectation function E ϵ [ · ] is approximated using Gauss-Hermite quadrature. The algorithm finds θ by minimizing the squared sum of Euler equation residuals ( E ϵ [ f j ( m , s , x , m ′ , s ′ , x ′ )]) 2 using a Newtonstyle method. The method is remarkably fast for small problems but becomes increasingly costly as the dimensionality of the problem increases.</p>
+</div>
+<div data-label="text" data-region-id="region-0187" data-self-ref="#/texts/194" data-source-page="10">
+<p>What makes the canonical projection method expensive in high dimensional applications? i) The volume of a hypercube domain increases exponentially with the number of state variables; ii) the number of points in tensor-product grid covering that domain grows exponentially with the number of state variables; iii) the volume of a hypercube set for integration across future shocks grows exponentially with the number of shocks; iv) the number of quadrature nodes in the tensor product grid grows exponentially with the number of shocks; v) for each grid point in state space, there are multiple nodes for approximating expectation functions; vi) for more complex models, the cost is higher because we have more equations and more variables to solve for; vii) the number of approximation functions is paired with the number of grid points, so the number of coefficients in θ grows exponentially as well; viii) the least square approximation suffers from ill-conditioning and numerical instability; ix) the code written by individual researchers is not always optimized for the best performance.</p>
+</div>
+<div data-label="page_footer" data-region-id="region-0188" data-self-ref="#/texts/195" data-source-page="10">
+<p>85</p>
+</div>
+</div>
+</body></html>

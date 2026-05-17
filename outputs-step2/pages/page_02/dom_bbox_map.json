@@ -1,0 +1,175 @@
+{
+  "dom_header": {
+    "source_page": 2,
+    "page_slug": "page_02",
+    "html_path": "outputs-step2/pages/page_02/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_02/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 1691
+    },
+    "bbox_count": 13
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0026",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0027",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0028",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "that it is possible to solve many challenging economic models by using the same AI technology, softw",
+      "bbox": [
+        220.0,
+        145.1875,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0029",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "First, we offer a unified approach which allows us to cast three fundamental objects of economic dyn",
+      "bbox": [
+        220.0,
+        237.96875,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0030",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "Second, we show how to adapt a stochastic gradient descent method to training of the three construct",
+      "bbox": [
+        220.0,
+        381.9375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0031",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "Third, we introduce the all-in-one (AiO) expectation operator for efficient approximation of integra",
+      "bbox": [
+        220.0,
+        577.09375,
+        1000.0,
+        179.15625
+      ]
+    },
+    {
+      "anchor_id": "region-0032",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "The way we construct the AiO operator differs for the three objective functions considered. For the ",
+      "bbox": [
+        220.0,
+        772.25,
+        1000.0,
+        153.5625
+      ]
+    },
+    {
+      "anchor_id": "region-0033",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "Our last important contribution is to implement the DL solution framework using the Google TensorFlo",
+      "bbox": [
+        220.0,
+        941.8125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0034",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "The solution framework we introduce is not tied to neural networks but can be used with any approxim",
+      "bbox": [
+        220.0,
+        1034.59375,
+        1000.0,
+        102.375
+      ]
+    },
+    {
+      "anchor_id": "region-0035",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "We first illustrate our DL solution framework by using a simple one-agent consumption savings proble",
+      "bbox": [
+        220.0,
+        1152.96875,
+        1000.0,
+        127.96875
+      ]
+    },
+    {
+      "anchor_id": "region-0036",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "We then solve Krusell and Smith (1998) model with heterogenous agents. Our solution procedure is con",
+      "bbox": [
+        220.0,
+        1296.9375,
+        1000.0,
+        230.34375
+      ]
+    },
+    {
+      "anchor_id": "region-0037",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "3 Jupyter notebooks illustrating the method are available from open-source QuantEcon.org site https:",
+      "bbox": [
+        220.0,
+        1543.28125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0038",
+      "source_page": 2,
+      "tag": "div",
+      "text_preview": "77",
+      "bbox": [
+        220.0,
+        1610.46875,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}

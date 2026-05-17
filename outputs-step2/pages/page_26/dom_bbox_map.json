@@ -1,0 +1,643 @@
+{
+  "dom_header": {
+    "source_page": 26,
+    "page_slug": "page_26",
+    "html_path": "outputs-step2/pages/page_26/rendered.html",
+    "screenshot_path": "outputs-step2/pages/page_26/rendered_screenshot.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "page_pixel_size": {
+      "width": 1440,
+      "height": 2894
+    },
+    "bbox_count": 52
+  },
+  "dom": [
+    {
+      "anchor_id": "region-0416",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "L. Maliar, S. Maliar and P. Winant",
+      "bbox": [
+        220.0,
+        62.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0417",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Journal of Monetary Economics 122 (2021) 76-101",
+      "bbox": [
+        220.0,
+        103.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0418",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Supplementary material",
+      "bbox": [
+        220.0,
+        149.09375,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0419",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Supplementary material associated with this article can be found, in the online version, at doi: 10.",
+      "bbox": [
+        220.0,
+        207.390625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0420",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "References",
+      "bbox": [
+        220.0,
+        252.890625,
+        1000.0,
+        38.390625
+      ]
+    },
+    {
+      "anchor_id": "region-0421",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Adjemian, S. , Juillard, M. , 2013. Stochastic extended path approach. Manuscript .",
+      "bbox": [
+        220.0,
+        311.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0422",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Ahn, S. , Kaplan, G. , Moll, B. , Winberry, T. , Wolf, C. , 2018. When inequality matters for macro ",
+      "bbox": [
+        220.0,
+        352.78125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0423",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Arellano, C. , Maliar, L. , Maliar, S. , Tsyrennikov, V. , 2016. Envelope condition method with an a",
+      "bbox": [
+        220.0,
+        419.96875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0424",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Aruoba, S.B. , Fernández-Villaverde, J. , Rubio-Ramírez, J. , 2006. Comparing solution methods for d",
+      "bbox": [
+        220.0,
+        487.15625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0425",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Azinovic, M., Luca, J., Scheidegger, S., 2020. Deep equilibrium nets. SSRN:. https://ssrn.com/abstra",
+      "bbox": [
+        220.0,
+        554.34375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0426",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Bayer, C. , Luetticke, R. , 2020. Solving discrete time heterogeneous agent models with aggregate ri",
+      "bbox": [
+        220.0,
+        595.9375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0427",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Carroll, C. , 2006. The method of endogenous gridpoints for solving dynamic stochastic optimization ",
+      "bbox": [
+        220.0,
+        663.125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0428",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Cheng, R. , 1982. The use of antithetic variates in computer simulations. Journal of the Operational",
+      "bbox": [
+        220.0,
+        704.71875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0429",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Coleman, C. , Lyon, S. , Maliar, L. , Maliar, S. , 2018. Matlab, python, julia: what to choose in ec",
+      "bbox": [
+        220.0,
+        746.3125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0430",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Den Haan, W. , 1997. Solving dynamic models with aggregate shocks and heterogeneous agents. Macroeco",
+      "bbox": [
+        220.0,
+        813.5,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0431",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Den Haan, W. , 2010. Comparison of solutions to the incomplete markets model with aggregate uncertai",
+      "bbox": [
+        220.0,
+        855.09375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0432",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Den Haan, W. , Marcet, A. , 1990. Solving the stochastic growth model by parameterized expectations.",
+      "bbox": [
+        220.0,
+        922.28125,
+        1000.0,
+        76.78125
+      ]
+    },
+    {
+      "anchor_id": "region-0433",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Duffy, J. , McNelis, P. , 2001. Approximating and simulating the real business cycle model: paramete",
+      "bbox": [
+        220.0,
+        1015.0625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0434",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Fernández-Villaverde, J. , Hurtado, S. , Nuño, G. , 2019. Financial frictions and the wealth distrib",
+      "bbox": [
+        220.0,
+        1082.25,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0435",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Goodfellow, I.",
+      "bbox": [
+        220.0,
+        1123.84375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0436",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": ",",
+      "bbox": [
+        220.0,
+        1165.4375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0437",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Bengio, Y.",
+      "bbox": [
+        220.0,
+        1207.03125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0438",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": ",",
+      "bbox": [
+        220.0,
+        1248.625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0439",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Courville, A.",
+      "bbox": [
+        220.0,
+        1290.21875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0440",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": ",",
+      "bbox": [
+        220.0,
+        1331.8125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0441",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "2016.",
+      "bbox": [
+        220.0,
+        1373.40625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0442",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Deep learning.",
+      "bbox": [
+        220.0,
+        1415.0,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0443",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Massachusetts Institute Technology Press",
+      "bbox": [
+        220.0,
+        1456.59375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0444",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": ".",
+      "bbox": [
+        220.0,
+        1498.1875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0445",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Gorodnichenko, Y. , Maliar, L. , Maliar, S. , Naubert, C. , 2020. Household savings and monetary pol",
+      "bbox": [
+        220.0,
+        1539.78125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0446",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Jiang, H. , 1996. Smoothed fischer-burmeister equation methods for the complementarity problem. Manu",
+      "bbox": [
+        220.0,
+        1606.96875,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0447",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Jirniy, A., Lepetyuk, V., 2011. A reinforcement learning approach to solving incomplete market model",
+      "bbox": [
+        220.0,
+        1648.5625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0448",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Judd, K.L. , 1992. Projection methods for solving aggregate growth models. J Econ Theory 58, 410-452",
+      "bbox": [
+        220.0,
+        1715.75,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0449",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Judd, K.L. , 1998. Numerical methods in economics. MIT Press .",
+      "bbox": [
+        220.0,
+        1757.34375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0450",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Judd, K.L. , Maliar, L. , Maliar, S. , 2011. Numerically stable and accurate stochastic simulation a",
+      "bbox": [
+        220.0,
+        1798.9375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0451",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Judd, L. , Maliar, L. , Maliar, S. , 2017. Lower bounds on approximation errors to numerical solutio",
+      "bbox": [
+        220.0,
+        1866.125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0452",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Krusell, P. , Smith, A. , 1998. Income and wealth heterogeneity in the macroeconomy. Journal of Poli",
+      "bbox": [
+        220.0,
+        1933.3125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0453",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Lepetyuk, V. , Maliar, L. , Maliar, S. , 2020. When the u.s. catches a cold, canada sneezes: a lower",
+      "bbox": [
+        220.0,
+        1974.90625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0454",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , 2005. Parameterized expectations algorithm: how to solve for labor easily.",
+      "bbox": [
+        220.0,
+        2042.09375,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0455",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , 2013. Envelope condition method versus endogenous grid method for solving ",
+      "bbox": [
+        220.0,
+        2083.6875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0456",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , 2015. Merging simulation and projection approaches to solve high-dimension",
+      "bbox": [
+        220.0,
+        2150.875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0457",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , 2020. Deep learning classification: modeling discrete labor choice. CEPR w",
+      "bbox": [
+        220.0,
+        2218.0625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0458",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , 2014. Numerical Methods for Large Scale Dynamic Economic Models. In: Schme",
+      "bbox": [
+        220.0,
+        2259.65625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0459",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Maliar, L. , Maliar, S. , Valli, F. , 2010. Solving the incomplete markets model with aggregate unce",
+      "bbox": [
+        220.0,
+        2326.84375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0460",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Reiter, M. , 2010. Approximate and almost-exact aggregation in dynamic stochastic heterogeneous-agen",
+      "bbox": [
+        220.0,
+        2394.03125,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0461",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Rosenblatt, F. , 1958. The perceptron: a probabilistic model for information storage and organizatio",
+      "bbox": [
+        220.0,
+        2435.625,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0462",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Rust, J. , Amman, H. , Kendrick, D. , Rust, J. , 1996. Numerical Dynamic Programming in Economics. I",
+      "bbox": [
+        220.0,
+        2502.8125,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0463",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Santos, M. , Taylor, J. , Woodford, M. , 1999. Numerical Solution of Dynamic Economic Models. In: Ha",
+      "bbox": [
+        220.0,
+        2570.0,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0464",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Smith, A. , 1993. Estimating nonlinear time-series models using simulated vector autoregressions. Jo",
+      "bbox": [
+        220.0,
+        2637.1875,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0465",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Villa, A., Valaitis, V., 2019. Machine learning projection methods for macro-finance models. SSRN:. ",
+      "bbox": [
+        220.0,
+        2704.375,
+        1000.0,
+        51.1875
+      ]
+    },
+    {
+      "anchor_id": "region-0466",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "Winberry, T. , 2018. A method for solving and estimating heterogeneous agent macro models. Quant Eco",
+      "bbox": [
+        220.0,
+        2771.5625,
+        1000.0,
+        25.59375
+      ]
+    },
+    {
+      "anchor_id": "region-0467",
+      "source_page": 26,
+      "tag": "div",
+      "text_preview": "101",
+      "bbox": [
+        220.0,
+        2813.15625,
+        1000.0,
+        25.59375
+      ]
+    }
+  ]
+}
