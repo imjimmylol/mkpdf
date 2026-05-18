@@ -11,7 +11,8 @@ PDF → Docling 初始轉換 → HTML (含 anchor markers + data-source-page 頁
                               ↓
                     ┌─→ 按 Page Origin Map 分組 → Playwright 截圖 + DOM Mapping Table
                     │         ↓
-                    │   Qwen2.5-VL Judge (2 張原 PDF 頁面 vs 1 張對應 HTML 截圖)
+                    │   Vision Judge (per-page 1 call: 1 PDF page + 1 HTML render)
+                    │   一個 pair 內的 2 頁平行呼叫，再 aggregate
                     │         ↓
                     │     Pass? ──→ Yes ──→ 輸出最終 HTML
                     │      No (+ 結構化錯誤報告 + bounding box 標註)
@@ -60,21 +61,26 @@ PDF → Docling 初始轉換 → HTML (含 anchor markers + data-source-page 頁
 | 項目 | 決策 |
 |------|------|
 | **粒度** | Pair：以原始 PDF 兩頁為一組 judge 批次，採 overlap `(1,2), (2,3), (3,4), ...` |
-| **理由** | 學術論文跨頁元素（表格/段落）需在同一 judge prompt 看到兩頁；overlap 確保每個跨頁邊界都被覆蓋 |
-| **渲染** | Per-page 獨立渲染（非 pair 合併）。Judge 收 4 張圖：PDF p3 + PDF p4 + HTML p3 + HTML p4，做 pairwise 比對 |
+| **理由** | 學術論文跨頁元素（表格/段落）的覆蓋仰賴 overlap pair：跨頁邊界一定會落在某個 pair 內 |
+| **渲染** | Per-page 獨立渲染（非 pair 合併） |
+| **Judge call 粒度** | **Per-page 1 call**：每頁送 2 圖（1 PDF + 1 HTML render）。一個 pair 的 2 頁平行呼叫，再 client-side aggregate（score 取 min、errors 直接 concat） |
 | **去重** | Page render 一份 source-of-truth：page 3 即使屬於 pair (2,3) 與 (3,4)，只渲染一次 |
 
-#### 關鍵設計：Page Origin Label + Per-Page 渲染
+#### 關鍵設計：Page Origin Label + Per-Page 渲染 + Per-Page Judge Call
 
 - **比對單位是「原始 PDF 頁碼」**：每個 HTML 元素帶 `data-source-page` 屬性，標記它來自原始 PDF 第幾頁
 - **渲染粒度是「page」**：對每個 source page 各自抽出 `.page[data-source-page="N"]` 節點、build 一份 single-page HTML、各自截圖
+- **Judge call 粒度也是「page」**：每次 call 只送 1 PDF + 1 HTML render 共 2 圖。實測 ollama / 本地 VL server 在 4 圖路徑會 silently drop images 或觸發 `SameBatch within numKeep` 500；2 圖穩定。
 - **bbox 座標系統是「該頁截圖」**：永遠以 (0, 0) 為左上角，下游 IoU 比對無需做 pair-local 轉換
-- **Pair 是 logical grouping**：靠 `pairs/pair_NN_MM/summary.json` 帶顯式 paths 指向對應 page artifact
+- **Pair 是 logical grouping + aggregation 邊界**：靠 `pairs/pair_NN_MM/summary.json` 帶顯式 paths 指向對應 page artifact；judge 階段在 pair 內平行呼叫 2 個 single-page judge，再 aggregate 成一份 `judge_report.json`
+- **代價**：跨頁元素（跨頁表格/段落）judge 看不到對側頁。靠 overlap pair 緩解（同元素會出現在 (n,n+1) 與 (n+1,n+2) 兩個 pair 的不同頁），加上 fixer 端拿到報告後可跨頁讀 HTML
 
 ```
 原始 PDF page 3 + page 4 (2 張圖)
-        ↕ pairwise 比對
+        ↕ 兩頁各自獨立 judge call（平行）
 HTML page 3 截圖 + HTML page 4 截圖 (2 張獨立圖)
+        ↓
+   aggregate → 一份 pair-level judge_report.json
 ```
 
 #### Playwright 截圖策略
@@ -109,34 +115,46 @@ HTML page 3 截圖 + HTML page 4 截圖 (2 張獨立圖)
 
 | 項目 | 決策 |
 |------|------|
-| **模型** | Qwen2.5-VL (建議 72B，可依成本降至 7B) |
-| **輸入** | 原始 PDF 頁面圖片 (2 張) + 對應 HTML 渲染截圖 (2 張，pairwise) + per-page bbox map (2 份) |
-| **輸出** | 分數 + 結構化錯誤描述 + bounding box 圖片標註 |
+| **模型** | Qwen2.5-VL / Qwen3.5 VL（self-host via Ollama 或 vLLM） |
+| **Call 粒度** | **Per-page 1 call**：每頁 1 PDF + 1 HTML render 共 2 圖。pair 內 2 頁平行送 |
+| **輸入（per call）** | 1 張原 PDF 頁 + 1 張對應 HTML 截圖 + 該頁 `page_pixel_size` |
+| **輸出（per call）** | `score` + `errors[]`（bbox/type/description/severity） |
+| **Pair-level aggregate** | client 端：score 取 min、errors concat、`passed = aggregated_score >= PASS_THRESHOLD` |
 | **判斷標準** | 中間路線 — 結構語義正確 + 關鍵視覺元素正確 |
 
-#### Judge 輸出格式 (建議 JSON)
+#### Judge 輸出格式
+
+**Per-page LLM 回傳**（最小集合，model 直接吐）：
 
 ```json
 {
-  "page_pair": [3, 4],
-  "score": 6,
-  "pass": false,
+  "score": 6.0,
   "errors": [
     {
       "type": "table_structure",
+      "target_source_page": 3,
       "bbox": [120, 340, 450, 520],
-      "anchor_id": "table-2",
       "description": "表格第三欄的邊框缺失，且 header row 與 data row 沒有分隔線",
       "severity": "high"
-    },
-    {
-      "type": "equation_rendering",
-      "bbox": [80, 600, 400, 650],
-      "anchor_id": "eq-7",
-      "description": "公式 (7) 的上標 \\alpha^{(t)} 渲染為 \\alpha(t)，缺少上標格式",
-      "severity": "medium"
     }
   ]
+}
+```
+
+> 注意：`anchor_id` **不在** judge 輸出裡。Judge 只給像素 bbox，§3.4 IoU 階段再反推 `anchor_id`。理由：vision model 看不到 HTML 端的 anchor marker，要它對齊只會幻覺。
+
+**Pair-level aggregated report**（client 組裝後寫到 `pairs/pair_NN_MM/judge_report.json`）：
+
+```json
+{
+  "pair": [3, 4],
+  "pair_slug": "pair_03_04",
+  "score": 6.0,
+  "passed": false,
+  "pass_threshold": 8.0,
+  "errors": [ /* 兩頁 errors concat */ ],
+  "model_id": "qwen3.5:9b",
+  "raw_output": "=== source_page=3 ===\n{...}\n\n=== source_page=4 ===\n{...}"
 }
 ```
 
@@ -314,7 +332,7 @@ class PipelineState(TypedDict):
       ↓
 [render_and_capture]   # 按 page pair 從 Page Origin Map 取元素 → Playwright 截圖 + DOM mapping
       ↓
-[judge_pages]          # Qwen2.5-VL 逐 page pair 評分 (2 張 PDF 圖 vs 1 張 HTML 截圖)
+[judge_pages]          # 對 pair 內每頁各跑 1 call (1 PDF + 1 HTML render)，平行後 aggregate 成 pair report
       ↓
 [check_completion]     # 全部 pass? 或達上限?
     ↙        ↘
@@ -382,7 +400,7 @@ class PipelineState(TypedDict):
 |------|---------|-------------------|
 | Docling 初始轉換 | 本地推理，~免費 | 免費 |
 | Playwright 截圖 | 本地執行，免費 | 免費 |
-| Qwen2.5-VL Judge (per 輪) | ~8 page pairs × vision tokens | ×3 輪 |
+| Vision Judge (per 輪) | ~unique_pages × vision tokens（per-page 1 call，2 圖） | ×3 輪 |
 | Code Fixer (per 輪) | ~修復 2-4 個問題 × text tokens | ×3 輪 |
 | **預估總計** | 視模型定價而定 | 如用 self-hosted Qwen2.5-VL 可大幅降低 |
 

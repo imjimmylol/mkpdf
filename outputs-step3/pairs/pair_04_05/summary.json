@@ -1,0 +1,13 @@
+{
+  "pair": [
+    4,
+    5
+  ],
+  "pair_slug": "pair_04_05",
+  "score": 0.0,
+  "passed": false,
+  "pass_threshold": 80.0,
+  "errors": [],
+  "model_id": "qwen3.5:9b",
+  "raw_output": "=== source_page=4 prompt_eval_count=-1 ===\n[TIMEOUT after 300s: ReadTimeout]\n\n=== source_page=5 prompt_eval_count=-1 ===\n[TIMEOUT after 300s: ReadTimeout]"
+}

@@ -1,0 +1,50 @@
+{
+  "pair": [
+    1,
+    2
+  ],
+  "pair_slug": "pair_01_02",
+  "score": 0.0,
+  "passed": false,
+  "pass_threshold": 8.0,
+  "errors": [
+    {
+      "type": "layout_other",
+      "target_source_page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        1440.0,
+        1807.0
+      ],
+      "description": "HTML 渲染中標題 'Deep Reinforcement Learning for Healthcare' 的字體樣式與 PDF 原始文件略有不同，標題的粗體與顏色渲染方式存在細微區別",
+      "severity": "low"
+    },
+    {
+      "type": "layout_other",
+      "target_source_page": 1,
+      "bbox": [
+        250.0,
+        420.0,
+        350.0,
+        1807.0
+      ],
+      "description": "Section 標題 '1 Introduction' 的垂直間距與 PDF 原始文件相比，HTML 版本在段落間距上有小幅度調整",
+      "severity": "low"
+    },
+    {
+      "type": "layout_other",
+      "target_source_page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        1440.0,
+        1691.0
+      ],
+      "description": "Source image (Fig 1) and rendered page (Fig 2) are unavailable for comparison - unable to perform visual verification",
+      "severity": "high"
+    }
+  ],
+  "model_id": "qwen3.5:9b",
+  "raw_output": "=== source_page=1 prompt_eval_count=4096 ===\n{\n  \"score\": 0.97,\n  \"errors\": [\n    {\n      \"type\": \"layout_other\",\n      \"target_source_page\": 1,\n      \"bbox\": [0, 0, 1440, 1807],\n      \"description\": \"HTML 渲染中標題 'Deep Reinforcement Learning for Healthcare' 的字體樣式與 PDF 原始文件略有不同，標題的粗體與顏色渲染方式存在細微區別\",\n      \"severity\": \"low\"\n    },\n    {\n      \"type\": \"layout_other\",\n      \"target_source_page\": 1,\n      \"bbox\": [250, 420, 350, 1807],\n      \"description\": \"Section 標題 '1 Introduction' 的垂直間距與 PDF 原始文件相比，HTML 版本在段落間距上有小幅度調整\",\n      \"severity\": \"low\"\n    }\n  ]\n}\n\n=== source_page=2 prompt_eval_count=4096 ===\n{\n  \"score\": 0.0,\n  \"errors\": [\n    {\n      \"type\": \"layout_other\",\n      \"target_source_page\": 2,\n      \"bbox\": [0, 0, 1440, 1691],\n      \"description\": \"Source image (Fig 1) and rendered page (Fig 2) are unavailable for comparison - unable to perform visual verification\",\n      \"severity\": \"high\"\n    }\n  ]\n}"
+}

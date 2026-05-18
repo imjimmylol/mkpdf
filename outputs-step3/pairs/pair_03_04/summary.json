@@ -1,0 +1,13 @@
+{
+  "pair": [
+    3,
+    4
+  ],
+  "pair_slug": "pair_03_04",
+  "score": 1.0,
+  "passed": false,
+  "pass_threshold": 8.0,
+  "errors": [],
+  "model_id": "qwen3.5:9b",
+  "raw_output": "=== source_page=3 prompt_eval_count=235 ===\n{\n  \"score\": 1.0,\n  \"errors\": []\n}\n\n=== source_page=4 prompt_eval_count=235 ===\n{\n  \"score\": 1.0,\n  \"errors\": []\n}"
+}
